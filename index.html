@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <head>
   <meta charset="UTF-8">
-  <meta href="/css/style.css" rel="stylesheet">
+  <title>DEVICE</title>
+  <link href="css/style.css" rel="stylesheet">
 </head>
 <body class="page-body">
   <header class="page-header">
@@ -167,8 +168,28 @@
       <p class="contacts__welcome">
         Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете проверить работоспособность покупки. Всякое бывает.
       </p>
-      <div class="contacts__map map"></div>
-      <a class="contacts__letter" href="#"></a>
+      <div class="contacts__map map">
+        <div class="map--big">
+          <button class="modal-close" type="button">X</button>
+        </div>
+      </div>
+      <div class="contacts__letter">
+        <a class="contacts__link" href="#">Напишите нам</a>
+        <form class="contact__form" method="GET" action="https://echo.htmlacademy.ru">
+          <div class="contact__name-block">
+            <label class="contact__label" for="name">Ваше имя:</label>
+            <input class="contact__name" type="text" id="name" name="name-field" placeholder="Имя Фамилия">
+          </div>
+          <div class="contact__email-block">
+            <label class="contact__label" for="email">Ваш e-mail:</label>
+            <input class="contact__email" type="email" id="email" name="email-field" placeholder="email@example.com">
+          </div>
+          <div class="contact__message-block">
+            <label class="contact__label" for="message">Текст письма:</label>
+            <textarea class="contact__message" id="message" name="message-field">В свободной форме</textarea>
+          </div>
+        </form>
+      </div>
     </section>
   </main>
   <footer class="page-footer">

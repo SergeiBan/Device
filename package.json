@@ -1,0 +1,26 @@
+{
+  "name": "device",
+  "version": "1.0.0",
+  "description": "Study project",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SergeiBan/Device.git"
+  },
+  "keywords": [
+    "Device"
+  ],
+  "author": "SergeiBan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SergeiBan/Device/issues"
+  },
+  "homepage": "https://github.com/SergeiBan/Device#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1"
+  }
+}
