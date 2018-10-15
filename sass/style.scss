@@ -1,3 +1,10 @@
-body {
-  background: green;
-}
+@import "global.scss";
+@import "page-header.scss";
+@import "slider.scss";
+@import "page-footer.scss";
+@import "features.scss";
+@import "card.scss";
+@import "product.scss";
+@import "filter.scss";
+@import "catalog.scss";
+@import "pagination.scss";

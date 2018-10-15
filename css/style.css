@@ -1,2 +1,45 @@
-body {
-  background: green; }
+@font-face {
+  font-family: "Gilroy";
+  font-weight: 900;
+  font-style: normal;
+  src: local("Gilroy ExtraBold"), local("Gilroy-ExtraBold"), url("../fonts/gilroyextrabold.woff2") format("woff2"), url("../fonts/gilroyextrabold.woff") format("woff"), url("../fonts/Gilroyextrabold.ttf") format("ttf"); }
+
+img {
+  width: 100%;
+  height: auto; }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box; }
+
+.page-header {
+  background-color: #f7e296;
+  font-family: "Gilroy", "Helvetica", sans-serif;
+  font-weight: 900; }
+
+.slider__item-pic {
+  width: 384px;
+  height: 486px; }
+
+.page-footer {
+  background-color: #464646; }
+
+.features {
+  background-color: #e5e5e5; }
+
+.card {
+  background-color: #f7e296; }
+
+.product__pic {
+  width: 360px;
+  height: 380px; }
+
+.filter {
+  background-color: #efefef; }
+
+.catalog__sorting {
+  background-color: #ebebeb; }
+
+.pagination {
+  background-color: #ebebeb; }
