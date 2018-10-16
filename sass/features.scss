@@ -1,3 +1,9 @@
+@import "mixins.scss";
+
 .features {
   background-color: #e5e5e5;
+}
+
+.features__text {
+  @include text1530;
 }

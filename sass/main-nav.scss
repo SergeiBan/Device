@@ -1,0 +1,6 @@
+@import "mixins.scss";
+
+.main-nav {
+  @include text1530;
+  letter-spacing: normal;
+}

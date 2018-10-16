@@ -4,6 +4,24 @@
   font-style: normal;
   src: local("Gilroy ExtraBold"), local("Gilroy-ExtraBold"), url("../fonts/gilroyextrabold.woff2") format("woff2"), url("../fonts/gilroyextrabold.woff") format("woff"), url("../fonts/Gilroyextrabold.ttf") format("ttf"); }
 
+@font-face {
+  font-family: "Gilroy";
+  font-weight: 300;
+  font-style: normal;
+  src: local("Gilroy Light"), local("Girloy-Light"), url("../fonts/gilroylight.woff2") format("woff2"), url("../fonts/gilroylight.woff") format("woff"), url("../fonts/Gilroylight.ttf") format("ttf"); }
+
+@font-face {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-style: normal;
+  src: local("Open Sans Regular"), local("OpenSans-Regular"), url("../fonts/opensans.woff2") format("woff2"), url("../fonts/opensans.woff") format("woff"), url("../fonts/OpenSans-Regular.ttf") format("ttf"); }
+
+@font-face {
+  font-family: "Open Sans";
+  font-weight: 300;
+  font-style: normal;
+  src: local("Open Sans Light"), local("OpenSans-Light"), url("../fonts/opensanslight.woff2") format("woff2"), url("../fonts/opensanslight.woff") format("woff"), url("../fonts/OpenSans-Light.ttf") format("ttf"); }
+
 img {
   width: 100%;
   height: auto; }
@@ -16,17 +34,38 @@ img {
 .page-header {
   background-color: #f7e296;
   font-family: "Gilroy", "Helvetica", sans-serif;
-  font-weight: 900; }
+  font-weight: 900;
+  letter-spacing: 2px; }
 
 .slider__item-pic {
   width: 384px;
   height: 486px; }
+
+.slider__item-description {
+  font-size: 15px;
+  line-height: 30px;
+  font-family: "Open Sans";
+  font-weight: 300;
+  color: #464646; }
+
+.slider__item-title {
+  font-size: 47px;
+  line-height: 48px;
+  font-family: "Gilroy";
+  font-weight: 900;
+  line-height: 56px; }
 
 .page-footer {
   background-color: #464646; }
 
 .features {
   background-color: #e5e5e5; }
+
+.features__text {
+  font-size: 15px;
+  line-height: 30px;
+  font-family: "Open Sans";
+  font-weight: 300; }
 
 .card {
   background-color: #f7e296; }
@@ -43,3 +82,37 @@ img {
 
 .pagination {
   background-color: #ebebeb; }
+
+.categories__link {
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000; }
+
+.main-nav {
+  font-size: 15px;
+  line-height: 30px;
+  font-family: "Open Sans";
+  font-weight: 300;
+  letter-spacing: normal; }
+
+.about-us__text {
+  font-size: 15px;
+  line-height: 30px;
+  font-family: "Open Sans";
+  font-weight: 300; }
+
+.contacts__welcome {
+  font-size: 15px;
+  line-height: 30px;
+  font-family: "Open Sans";
+  font-weight: 300; }
+
+.search__goods,
+.search__goods-list {
+  font-size: 18px;
+  line-height: 24px; }
+
+.features-nav {
+  font-size: 18px;
+  line-height: 24px; }

@@ -1,17 +1,18 @@
-.slider__item-pic {
-  width: 384px;
-  height: 486px; }
+@mixin text1824 {
+  font-size: 18px;
+  line-height: 24px;
+}
 
-.slider__item-description {
+@mixin text1530 {
   font-size: 15px;
   line-height: 30px;
   font-family: "Open Sans";
   font-weight: 300;
-  color: #464646; }
+}
 
-.slider__item-title {
+@mixin text4748 {
   font-size: 47px;
   line-height: 48px;
   font-family: "Gilroy";
   font-weight: 900;
-  line-height: 56px; }
+}

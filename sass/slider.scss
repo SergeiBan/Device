@@ -1,4 +1,16 @@
+@import "mixins.scss";
+
 .slider__item-pic {
   width: 384px; 
   height: 486px;
+}
+
+.slider__item-description {
+  @include text1530;
+  color: #464646;
+}
+
+.slider__item-title {
+  @include text4748;
+  line-height: 56px;
 }

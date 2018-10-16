@@ -1,0 +1,5 @@
+@import "mixins.scss";
+
+.about-us__text {
+  @include text1530;
+}

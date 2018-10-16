@@ -1,0 +1,7 @@
+@import "mixins.scss";
+
+.categories__link {
+  text-decoration: none;
+  @include text1824;
+  color: #000000;
+}

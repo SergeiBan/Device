@@ -1,0 +1,6 @@
+@import "mixins.scss";
+
+.search__goods,
+.search__goods-list {
+  @include text1824;
+}

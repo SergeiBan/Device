@@ -9,6 +9,39 @@
     url("../fonts/Gilroyextrabold.ttf") format("ttf");
 }
 
+@font-face {
+  font-family: "Gilroy";
+  font-weight: 300;
+  font-style: normal;
+  src:
+  local("Gilroy Light"), local("Girloy-Light"),
+  url("../fonts/gilroylight.woff2") format("woff2"),
+  url("../fonts/gilroylight.woff") format("woff"),
+  url("../fonts/Gilroylight.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-style: normal;
+  src:
+  local("Open Sans Regular"), local("OpenSans-Regular"),
+  url("../fonts/opensans.woff2") format("woff2"),
+  url("../fonts/opensans.woff") format("woff"),
+  url("../fonts/OpenSans-Regular.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-weight: 300;
+  font-style: normal;
+  src:
+  local("Open Sans Light"), local("OpenSans-Light"),
+  url("../fonts/opensanslight.woff2") format("woff2"),
+  url("../fonts/opensanslight.woff") format("woff"),
+  url("../fonts/OpenSans-Light.ttf") format("ttf");
+}
+
 img {
   width: 100%;
   height: auto;
