@@ -1,0 +1,12 @@
+@import "mixins.scss";
+
+.logo {
+  font-size: 48px;
+  line-height: 48px;
+  font-family: "Gilroy";
+  font-weight: 900;
+}
+
+.logo--footer {
+  color: #ffc600;
+}

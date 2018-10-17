@@ -1,6 +1,8 @@
 @mixin text1824 {
   font-size: 18px;
   line-height: 24px;
+  font-family: "Gilroy";
+  font-weight: 900;
 }
 
 @mixin text1530 {
@@ -15,4 +17,39 @@
   line-height: 48px;
   font-family: "Gilroy";
   font-weight: 900;
+}
+
+@mixin text1640 {
+  font-size: 16px;
+  line-height: 40px;
+  font-family: "Gilroy";
+  font-weight: 900;
+}
+
+@mixin text1418 {
+  font-size: 14px;
+  line-height: 18px;
+  font-family: "Open Sans";
+  font-weight: 400;
+}
+
+@mixin text1424 {
+  font-size: 14px;
+  line-height: 24px;
+  font-family: "Open Sans";
+  font-weight: 300;
+}
+
+@mixin text1624 {
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Gilroy";
+  font-weight: 900;
+}
+
+@mixin text1440 {
+  font-size: 14px;
+  line-height: 40px;
+  font-family: "Open Sans";
+  font-weight: 300;
 }

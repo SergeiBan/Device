@@ -1,0 +1,8 @@
+@import "mixins.scss";
+
+.in-depth {
+  @include text1824;
+  color: #000000;
+  text-decoration: none;
+  letter-spacing: 2px;
+}

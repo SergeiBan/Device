@@ -1,3 +1,10 @@
+@import "mixins.scss";
+
 .page-footer {
   background-color: #464646;
+}
+
+.page-footer__address,
+.page-footer__tel {
+  @include text1530;
 }

@@ -1,0 +1,16 @@
+.info__title {
+  font-size: 47px;
+  line-height: 48px;
+  font-family: "Gilroy";
+  font-weight: 900; }
+
+.info__breadcrumbs {
+  list-style: none; }
+
+.info__link {
+  font-size: 14px;
+  line-height: 24px;
+  font-family: "Open Sans";
+  font-weight: 300;
+  color: #cacaca;
+  text-decoration: none; }

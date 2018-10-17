@@ -1,2 +1,27 @@
 .filter {
   background-color: #efefef; }
+
+.filter__title {
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Gilroy";
+  font-weight: 900;
+  text-transform: uppercase; }
+
+.filter__type {
+  font-size: 18px;
+  line-height: 24px;
+  font-family: "Gilroy";
+  font-weight: 900; }
+
+.filter__label {
+  font-size: 14px;
+  line-height: 40px;
+  font-family: "Open Sans";
+  font-weight: 300; }
+
+.filter__bluetooth-label {
+  font-size: 14px;
+  line-height: 40px;
+  font-family: "Open Sans";
+  font-weight: 300; }

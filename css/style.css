@@ -58,6 +58,13 @@ img {
 .page-footer {
   background-color: #464646; }
 
+.page-footer__address,
+.page-footer__tel {
+  font-size: 15px;
+  line-height: 30px;
+  font-family: "Open Sans";
+  font-weight: 300; }
+
 .features {
   background-color: #e5e5e5; }
 
@@ -77,6 +84,31 @@ img {
 .filter {
   background-color: #efefef; }
 
+.filter__title {
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Gilroy";
+  font-weight: 900;
+  text-transform: uppercase; }
+
+.filter__type {
+  font-size: 18px;
+  line-height: 24px;
+  font-family: "Gilroy";
+  font-weight: 900; }
+
+.filter__label {
+  font-size: 14px;
+  line-height: 40px;
+  font-family: "Open Sans";
+  font-weight: 300; }
+
+.filter__bluetooth-label {
+  font-size: 14px;
+  line-height: 40px;
+  font-family: "Open Sans";
+  font-weight: 300; }
+
 .catalog__sorting {
   background-color: #ebebeb; }
 
@@ -87,6 +119,8 @@ img {
   text-decoration: none;
   font-size: 18px;
   line-height: 24px;
+  font-family: "Gilroy";
+  font-weight: 900;
   color: #000000; }
 
 .main-nav {
@@ -108,11 +142,80 @@ img {
   font-family: "Open Sans";
   font-weight: 300; }
 
+.contacts__label {
+  font-size: 18px;
+  line-height: 24px;
+  font-family: "Gilroy";
+  font-weight: 900; }
+
+.contacts__form placeholder {
+  font-size: 14px;
+  line-height: 18px;
+  font-family: "Open Sans";
+  font-weight: 400; }
+
+.contacts__message {
+  font-size: 14px;
+  line-height: 18px;
+  font-family: "Open Sans";
+  font-weight: 400; }
+
 .search__goods,
 .search__goods-list {
   font-size: 18px;
-  line-height: 24px; }
+  line-height: 24px;
+  font-family: "Gilroy";
+  font-weight: 900; }
 
 .features-nav {
   font-size: 18px;
-  line-height: 24px; }
+  line-height: 24px;
+  font-family: "Gilroy";
+  font-weight: 900; }
+
+.delivery-list {
+  font-size: 16px;
+  line-height: 40px;
+  font-family: "Gilroy";
+  font-weight: 900; }
+
+.in-depth {
+  font-size: 18px;
+  line-height: 24px;
+  font-family: "Gilroy";
+  font-weight: 900;
+  color: #000000;
+  text-decoration: none;
+  letter-spacing: 2px; }
+
+.logo {
+  font-size: 48px;
+  line-height: 48px;
+  font-family: "Gilroy";
+  font-weight: 900; }
+
+.logo--footer {
+  color: #ffc600; }
+
+.site-search {
+  font-size: 15px;
+  line-height: 30px;
+  font-family: "Open Sans";
+  font-weight: 300; }
+
+.info__title {
+  font-size: 47px;
+  line-height: 48px;
+  font-family: "Gilroy";
+  font-weight: 900; }
+
+.info__breadcrumbs {
+  list-style: none; }
+
+.info__link {
+  font-size: 14px;
+  line-height: 24px;
+  font-family: "Open Sans";
+  font-weight: 300;
+  color: #cacaca;
+  text-decoration: none; }

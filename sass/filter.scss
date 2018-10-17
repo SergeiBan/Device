@@ -1,3 +1,22 @@
+@import "mixins.scss";
+
 .filter {
   background-color: #efefef;
+}
+
+.filter__title {
+  @include text1624;
+  text-transform: uppercase;
+}
+
+.filter__type {
+  @include text1824;
+}
+
+.filter__label {
+  @include text1440;
+}
+
+.filter__bluetooth-label {
+  @include text1440;
 }

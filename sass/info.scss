@@ -1,0 +1,16 @@
+@import "mixins.scss";
+
+.info__title {
+  @include text4748;
+}
+
+.info__breadcrumbs {
+  list-style: none;
+  
+}
+
+.info__link {
+  @include text1424;
+  color: #cacaca;
+  text-decoration: none;
+}
