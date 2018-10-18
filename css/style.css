@@ -65,6 +65,9 @@ img {
   font-family: "Open Sans";
   font-weight: 300; }
 
+.social__item:hover {
+  opacity: 0.3; }
+
 .features {
   background-color: #e5e5e5; }
 
@@ -81,6 +84,24 @@ img {
   width: 360px;
   height: 380px; }
 
+.product__name {
+  font-size: 18px;
+  line-height: 24px;
+  font-family: "Gilroy";
+  font-weight: 900; }
+
+.product__price {
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Gilroy";
+  font-weight: 300; }
+
+.product__compare {
+  font-size: 13px;
+  line-height: 36px;
+  font-family: "Open Sans";
+  font-weight: 300; }
+
 .filter {
   background-color: #efefef; }
 
@@ -89,7 +110,8 @@ img {
   line-height: 24px;
   font-family: "Gilroy";
   font-weight: 900;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  letter-spacing: 2px; }
 
 .filter__type {
   font-size: 18px;
@@ -112,8 +134,47 @@ img {
 .catalog__sorting {
   background-color: #ebebeb; }
 
+.catalog__title {
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Gilroy";
+  font-weight: 900;
+  letter-spacing: 2px;
+  text-transform: uppercase; }
+
+.catalog__link {
+  font-size: 14px;
+  line-height: 18px;
+  font-family: "Open Sans";
+  font-weight: 400;
+  text-decoration: none;
+  color: #000000; }
+
+.catalog__link[href] {
+  opacity: 0.3; }
+
 .pagination {
   background-color: #ebebeb; }
+
+.pagination__direction {
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Gilroy";
+  font-weight: 900; }
+
+.pagination__link {
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Gilroy";
+  font-weight: 900; }
+
+.pagination__link[href] {
+  opacity: 0.3;
+  text-decoration: none;
+  color: #000000; }
+
+.pagination__list {
+  list-style: none; }
 
 .categories__link {
   text-decoration: none;

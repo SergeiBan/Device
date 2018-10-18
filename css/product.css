@@ -1,3 +1,21 @@
 .product__pic {
   width: 360px;
   height: 380px; }
+
+.product__name {
+  font-size: 18px;
+  line-height: 24px;
+  font-family: "Gilroy";
+  font-weight: 900; }
+
+.product__price {
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Gilroy";
+  font-weight: 300; }
+
+.product__compare {
+  font-size: 13px;
+  line-height: 36px;
+  font-family: "Open Sans";
+  font-weight: 300; }

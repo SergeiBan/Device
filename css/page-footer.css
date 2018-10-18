@@ -7,3 +7,6 @@
   line-height: 30px;
   font-family: "Open Sans";
   font-weight: 300; }
+
+.social__item:hover {
+  opacity: 0.3; }

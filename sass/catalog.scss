@@ -1,3 +1,21 @@
+@import "mixins.scss";
+
 .catalog__sorting {
   background-color: #ebebeb;
+}
+
+.catalog__title {
+  @include text1624;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.catalog__link {
+  @include text1418;
+  text-decoration: none;
+  color: #000000;
+}
+
+.catalog__link[href] {
+  opacity: 0.3;
 }

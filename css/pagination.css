@@ -1,2 +1,22 @@
 .pagination {
   background-color: #ebebeb; }
+
+.pagination__direction {
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Gilroy";
+  font-weight: 900; }
+
+.pagination__link {
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Gilroy";
+  font-weight: 900; }
+
+.pagination__link[href] {
+  opacity: 0.3;
+  text-decoration: none;
+  color: #000000; }
+
+.pagination__list {
+  list-style: none; }

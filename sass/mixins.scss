@@ -53,3 +53,17 @@
   font-family: "Open Sans";
   font-weight: 300;
 }
+
+@mixin text1624-light {
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Gilroy";
+  font-weight: 300;
+}
+
+@mixin text1336 {
+  font-size: 13px;
+  line-height: 36px;
+  font-family: "Open Sans";
+  font-weight: 300;
+}

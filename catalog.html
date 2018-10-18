@@ -5,6 +5,9 @@
   <link href="css/style.css" rel="stylesheet">
 </head>
 <body class="page-body">
+  <symbol viewbox="0 0 100 100">
+    <svg id="facebook" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><path fill="#FFF" d="M16 0C7.164 0 0 7.163 0 16s7.164 16 16 16c8.837 0 16-7.164 16-16S24.837 0 16 0zm4.062 9.455h-3.021v3.444h3.021v3.445h-3.021v8.61H14.02v-8.61H11v-3.445h3.021V9.455c0-1.902 1.353-3.445 3.021-3.445h3.021v3.445z"/></svg>
+  </symbol>
   <header class="page-header">
     <span class="page-header__logo logo">Device</span>
     <nav class="product-search">
@@ -79,9 +82,9 @@
     <div class="catalog__sorting">
       <h2 class="catalog__title">Сортировка:</h2>
       <ul class="catalog__sorting-list">
-        <li><a>По цене</a></li>
-        <li><a href="#">По типу</a></li>
-        <li><a href="#">По популярности</a></li>
+        <li><a class="catalog__link">По цене</a></li>
+        <li><a class="catalog__link" href="#">По типу</a></li>
+        <li><a class="catalog__link" href="#">По популярности</a></li>
       </ul>
       <div class="catalog-controls">
         <a href="#">В</a>
@@ -98,8 +101,8 @@
           <span class="product__price">500 руб.</span>
         </p>
         <p class="product__to-cart">
-          <a class="product__link" href="#">В корзину</a>
-          <span>Добавить к сравнению</span>
+          <a class="product__link in-depth" href="#">В корзину</a>
+          <span class="product__compare">Добавить к сравнению</span>
         </p>
       </div>
       <div class="products__product product">
@@ -111,8 +114,8 @@
           <span class="product__price">1 500 руб.</span>
         </p>
         <p class="product__to-cart">
-          <a class="product__link" href="#">В корзину</a>
-          <span>Добавить к сравнению</span>
+          <a class="product__link in-depth" href="#">В корзину</a>
+          <span class="product__compare">Добавить к сравнению</span>
         </p>
       </div>
       <div class="products__product product">
@@ -124,8 +127,8 @@
           <span class="product__price">2 500 руб.</span>
         </p>
         <p class="product__to-cart">
-          <a class="product__link" href="#">В корзину</a>
-          <span>Добавить к сравнению</span>
+          <a class="product__link in-depth" href="#">В корзину</a>
+          <span class="product__compare">Добавить к сравнению</span>
         </p>
       </div>
       <div class="products__product product">
@@ -137,17 +140,18 @@
           <span class="product__price">4 900 руб.</span>
         </p>
         <p class="product__to-cart">
-          <a class="product__link" href="#">В корзину</a>
-          <span>Добавить к сравнению</span>
+          <a class="product__link in-depth" href="#">В корзину</a>
+          <span class="product__compare">Добавить к сравнению</span>
         </p>
       </div>
       <div class="pagination">
         <a class="pagination__direction">Назад</a>
         <ul class="pagination__list">
-          <li class="pagination-number">1</li>
-          <li class="pagination-number">2</li>
-          <li class="pagination-number">3</li>
+          <li class="pagination-number"><a class="pagination__link">1</a></li>
+          <li class="pagination-number"><a class="pagination__link" href="#">2</a></li>
+          <li class="pagination-number"><a class="pagination__link" href="#">3</a></li>
         </ul>
+        <a class="pagination__direction">Вперед</a>
       </div>
     </section>
   </section>
@@ -175,7 +179,11 @@
     </div>
     <div class="page-footer__social social">
       <ul class="social__list">
-        <li class="social__item social__item--facebook">F</li>
+        <li class="social__item social__item--facebook">
+          <svg width="32px" height="32px">
+            <use xlink:href="#facebook"></use>
+          </svg>
+        </li>
         <li class="social__item social__item--instagram">I</li>
         <li class="social__item social__item--twitter">T</li>
       </ul>

@@ -8,3 +8,7 @@
 .page-footer__tel {
   @include text1530;
 }
+
+.social__item:hover {
+  opacity: 0.3;
+}

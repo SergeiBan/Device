@@ -1,3 +1,23 @@
+@import "mixins.scss";
+
 .pagination {
   background-color: #ebebeb;
+}
+
+.pagination__direction {
+  @include text1624;
+}
+
+.pagination__link {
+  @include text1624;
+}
+
+.pagination__link[href] {
+  opacity: 0.3;
+  text-decoration: none;
+  color: #000000;
+}
+
+.pagination__list {
+  list-style: none;
 }

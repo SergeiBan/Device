@@ -7,6 +7,7 @@
 .filter__title {
   @include text1624;
   text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 .filter__type {

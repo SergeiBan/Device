@@ -1,4 +1,18 @@
+@import "mixins.scss";
+
 .product__pic {
   width: 360px;
   height: 380px;
+}
+
+.product__name {
+  @include text1824;
+}
+
+.product__price {
+  @include text1624-light;
+}
+
+.product__compare {
+  @include text1336;
 }
