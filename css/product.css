@@ -1,12 +1,14 @@
 .product__pic {
   width: 360px;
-  height: 380px; }
+  height: 380px;
+  margin: 0 auto 35px; }
 
 .product__name {
   font-size: 18px;
   line-height: 24px;
   font-family: "Gilroy";
-  font-weight: 900; }
+  font-weight: 900;
+  width: 225px; }
 
 .product__price {
   font-size: 16px;
@@ -19,3 +21,21 @@
   line-height: 36px;
   font-family: "Open Sans";
   font-weight: 300; }
+
+.products {
+  display: grid;
+  grid-template-columns: 400px 400px; }
+
+.product:nth-child(even) {
+  grid-column: 2 / 3; }
+
+.product__to-cart {
+  display: none; }
+
+.product__description {
+  margin: 0 20px 0;
+  display: flex;
+  justify-content: space-between; }
+
+.product {
+  margin-bottom: 50px; }

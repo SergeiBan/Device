@@ -1,5 +1,10 @@
 .filter {
-  background-color: #efefef; }
+  background-color: #efefef;
+  grid-row: 2 / 3;
+  grid-column: 1 / 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
 
 .filter__title {
   font-size: 16px;
@@ -26,3 +31,18 @@
   line-height: 40px;
   font-family: "Open Sans";
   font-weight: 300; }
+
+.filter__color-block {
+  display: flex;
+  flex-direction: column; }
+
+.filter__color {
+  display: none; }
+
+.filter__bluetooth-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.filter__bluetooth {
+  display: none; }

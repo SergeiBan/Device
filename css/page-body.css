@@ -1,0 +1,5 @@
+.page-body__wrapper--catalog {
+  display: grid;
+  grid-template-rows: 230px 1460px 320px;
+  width: 1440px;
+  margin: 0 auto; }

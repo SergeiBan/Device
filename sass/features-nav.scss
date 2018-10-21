@@ -2,4 +2,20 @@
 
 .features-nav {
   @include text1824;
+  width: 100%;
+}
+
+.features-nav--footer {
+  width: 560px;
+  align-self: center;
+}
+
+.features-nav__list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.features-nav__item--contacts {
+  margin-left: 112px;
 }

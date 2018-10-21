@@ -3,10 +3,12 @@
 .product__pic {
   width: 360px;
   height: 380px;
+  margin: 0 auto 35px;
 }
 
 .product__name {
   @include text1824;
+  width: 225px;
 }
 
 .product__price {
@@ -15,4 +17,29 @@
 
 .product__compare {
   @include text1336;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: 400px 400px;
+  // grid-column-gap: 40px;
+  // width: 360px;
+}
+
+.product:nth-child(even) {
+  grid-column: 2 / 3;
+}
+
+.product__to-cart {
+  display: none;
+}
+
+.product__description {
+  margin: 0 20px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.product {
+  margin-bottom: 50px;
 }

@@ -1,5 +1,11 @@
 .catalog__sorting {
-  background-color: #ebebeb; }
+  background-color: #ebebeb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 70px;
+  padding-right: 140px;
+  margin-bottom: 70px; }
 
 .catalog__title {
   font-size: 16px;
@@ -7,7 +13,8 @@
   font-family: "Gilroy";
   font-weight: 900;
   letter-spacing: 2px;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  margin: 0; }
 
 .catalog__link {
   font-size: 14px;
@@ -15,7 +22,15 @@
   font-family: "Open Sans";
   font-weight: 400;
   text-decoration: none;
-  color: #000000; }
+  color: #000000;
+  margin-right: 25px; }
 
 .catalog__link[href] {
   opacity: 0.3; }
+
+.catalog__sorting-list {
+  list-style: none;
+  display: flex; }
+
+.catalog__controls {
+  margin-left: auto; }

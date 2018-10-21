@@ -2,4 +2,17 @@
   font-size: 18px;
   line-height: 24px;
   font-family: "Gilroy";
-  font-weight: 900; }
+  font-weight: 900;
+  width: 100%; }
+
+.features-nav--footer {
+  width: 560px;
+  align-self: center; }
+
+.features-nav__list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between; }
+
+.features-nav__item--contacts {
+  margin-left: 112px; }
