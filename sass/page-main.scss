@@ -3,3 +3,8 @@
   grid-template-rows: 180px 1285px;
   grid-template-columns: 465px 975px;
 }
+
+.page-main--index {
+  grid-row: 2 / 3;
+  grid-column: 1 / 2;
+}

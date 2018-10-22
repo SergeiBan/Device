@@ -6,6 +6,7 @@
   flex-direction: column;
   position: relative;
   padding: 65px 140px;
+  color: #ffffff;
 }
 
 .page-footer__address,
@@ -33,4 +34,15 @@
   width: 640px;
   padding-left: 160px;
   align-self: flex-end;
+}
+
+.page-footer__connections {
+  display: flex;
+  align-self: flex-end;
+  width: 660px;
+  justify-content: space-between;
+}
+
+.page-footer--index {
+  grid-row: -1 / -2;
 }

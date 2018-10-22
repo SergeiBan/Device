@@ -2,7 +2,8 @@
   font-size: 48px;
   line-height: 48px;
   font-family: "Gilroy";
-  font-weight: 900; }
+  font-weight: 900;
+  text-transform: uppercase; }
 
 .logo--footer {
   color: #ffc600; }

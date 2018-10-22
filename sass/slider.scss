@@ -14,3 +14,11 @@
   @include text4748;
   line-height: 56px;
 }
+
+.slider__item {
+  display: none;
+}
+
+.slider__item--active {
+  display: block;
+}

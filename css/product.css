@@ -24,7 +24,8 @@
 
 .products {
   display: grid;
-  grid-template-columns: 400px 400px; }
+  grid-template-columns: 400px 400px;
+  margin-left: 50px; }
 
 .product:nth-child(even) {
   grid-column: 2 / 3; }
