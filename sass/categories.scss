@@ -5,3 +5,10 @@
   @include text1824;
   color: #000000;
 }
+
+.categories {
+  display: flex;
+  justify-content: space-between;
+  width: 1160px;
+  margin: 0 auto;
+}

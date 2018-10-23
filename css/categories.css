@@ -5,3 +5,9 @@
   font-family: "Gilroy";
   font-weight: 900;
   color: #000000; }
+
+.categories {
+  display: flex;
+  justify-content: space-between;
+  width: 1160px;
+  margin: 0 auto; }

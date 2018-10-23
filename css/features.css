@@ -1,8 +1,17 @@
 .features {
-  background-color: #e5e5e5; }
+  background-image: linear-gradient(to bottom, #ffffff 100px, #e5e5e5 100px);
+  min-width: 400px;
+  display: grid;
+  grid-template-columns: 310px 600px 280px; }
 
 .features__text {
   font-size: 15px;
   line-height: 30px;
   font-family: "Open Sans";
   font-weight: 300; }
+
+.features__description {
+  display: none; }
+
+.features__description--delivery {
+  display: block; }

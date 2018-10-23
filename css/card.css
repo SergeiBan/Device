@@ -1,2 +1,7 @@
-.card {
-  background-color: #f7e296; }
+.card__image {
+  background-color: #f7e296;
+  width: 160px;
+  min-height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }

@@ -76,7 +76,10 @@ img {
   display: block; }
 
 .features {
-  background-color: #e5e5e5; }
+  background-image: linear-gradient(to bottom, #ffffff 100px, #e5e5e5 100px);
+  min-width: 400px;
+  display: grid;
+  grid-template-columns: 310px 600px 280px; }
 
 .features__text {
   font-size: 15px;
@@ -84,8 +87,19 @@ img {
   font-family: "Open Sans";
   font-weight: 300; }
 
-.card {
-  background-color: #f7e296; }
+.features__description {
+  display: none; }
+
+.features__description--delivery {
+  display: block; }
+
+.card__image {
+  background-color: #f7e296;
+  width: 160px;
+  min-height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
 
 .product__pic {
   width: 360px;
@@ -259,6 +273,12 @@ img {
   font-family: "Gilroy";
   font-weight: 900;
   color: #000000; }
+
+.categories {
+  display: flex;
+  justify-content: space-between;
+  width: 1160px;
+  margin: 0 auto; }
 
 .main-nav {
   font-size: 15px;
@@ -462,6 +482,9 @@ symbol {
 .page-main--index {
   grid-row: 2 / 3;
   grid-column: 1 / 2; }
+
+.page-main__sliders {
+  margin: 0 140px; }
 
 .goods-list {
   list-style: none; }
