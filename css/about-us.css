@@ -3,3 +3,6 @@
   line-height: 30px;
   font-family: "Open Sans";
   font-weight: 300; }
+
+.about-us {
+  grid-column: 1 / 2; }

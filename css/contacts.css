@@ -21,3 +21,6 @@
   line-height: 18px;
   font-family: "Open Sans";
   font-weight: 400; }
+
+.contacts {
+  grid-column: 2 / 3; }

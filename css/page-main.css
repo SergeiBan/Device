@@ -8,4 +8,21 @@
   grid-column: 1 / 2; }
 
 .page-main__sliders {
-  margin: 0 140px; }
+  margin: 0 140px;
+  grid-row: 1 / 2; }
+
+.page-main {
+  display: grid;
+  grid-template-rows: 600px 330px 390px 290px 660px; }
+
+.page-main__categories {
+  grid-row: 2 / 3; }
+
+.page-main__features {
+  grid-row: 3 / 4; }
+
+.page-main__manufacturers {
+  grid-row: 4 / 5; }
+
+.page-main__about {
+  grid-row: 5 / 6; }

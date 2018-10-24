@@ -22,3 +22,8 @@
 .slider__item--active {
   display: block;
 }
+
+.slider {
+  display: grid;
+  grid-template-columns: 600px 600px;
+}

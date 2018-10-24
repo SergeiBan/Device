@@ -15,3 +15,7 @@
 .contacts__message {
   @include text1418;
 }
+
+.contacts {
+  grid-column: 2 / 3;
+}

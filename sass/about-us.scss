@@ -3,3 +3,7 @@
 .about-us__text {
   @include text1530;
 }
+
+.about-us {
+  grid-column: 1 / 2;
+}

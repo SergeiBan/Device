@@ -185,13 +185,13 @@
           </tr>
         </table>
       </div>
+      <div class="toggles">
+        <div class="toggle"></div>
+        <div class="toggle"></div>
+        <div class="toggle"></div>
+      </div>
     </section>
-    <div class="toggles">
-      <div class="toggle"></div>
-      <div class="toggle"></div>
-      <div class="toggle"></div>
-    </div>
-    <section class="categories">
+    <section class="page-main__categories categories">
       <div class="categories__card card card--virtual">
         <div class="card__image">
           <svg width="97px" height="55px">
@@ -241,7 +241,7 @@
         <a class="categories__link" href="#">Квадрокоптеры</a>
       </div>
     </section>
-    <section class="features">
+    <section class="page-main__features features">
       <ul class="features__list">
         <li class="features__item in-depth">Доставка</li>
         <li class="features__item in-depth">Гарантия</li>
@@ -262,7 +262,7 @@
             условия кредита. Выгодные для нашего банка, разумеется.</p>
       </div>
     </section>
-    <section class="manufacturers">
+    <section class="page-main__manufacturers manufacturers">
       <ul class="manufacturers__list">
         <li class="manufacturers__pic"></li>
         <li class="manufacturers__pic"></li>
@@ -270,48 +270,50 @@
         <li class="manufacturers__pic"></li>
       </ul>
     </section>
-    <section class="about-us">
-      <h2 class="about-us-title">О нас</h2>
-      <p class="about-us__text">Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.</p>
-      <p class="about-us__text">
-        Мы можем доставить ваш товар в самые отдаленные точки России! DEVICE работает со многими транспортными компаниями:
-      </p>
-      <ul class="about-us__delivery-list delivery-list">
-        <li class="delivery-list__item">Деловые Линии</li>
-        <li class="delivery-list__item">Автотрейдинг</li>
-        <li class="delivery-list__item">ЖелДорЭкспедиция</li>
-      </ul>
-      <a class="about-us--details in-depth" href="#">Подробнее о нас</a>
-    </section>
-    <section class="contacts">
-      <h2 class="contacts__title">Контакты</h2>
-      <p class="contacts__welcome">
-        Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете проверить работоспособность покупки. Всякое бывает.
-      </p>
-      <div class="contacts__map map">
-        <div class="map--big">
-          <button class="modal-close" type="button">X</button>
+    <div class="page-main__about about">
+      <section class="about-us">
+        <h2 class="about-us-title">О нас</h2>
+        <p class="about-us__text">Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.</p>
+        <p class="about-us__text">
+          Мы можем доставить ваш товар в самые отдаленные точки России! DEVICE работает со многими транспортными компаниями:
+        </p>
+        <ul class="about-us__delivery-list delivery-list">
+          <li class="delivery-list__item">Деловые Линии</li>
+          <li class="delivery-list__item">Автотрейдинг</li>
+          <li class="delivery-list__item">ЖелДорЭкспедиция</li>
+        </ul>
+        <a class="about-us--details in-depth" href="#">Подробнее о нас</a>
+      </section>
+      <section class="contacts">
+        <h2 class="contacts__title">Контакты</h2>
+        <p class="contacts__welcome">
+          Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете проверить работоспособность покупки. Всякое бывает.
+        </p>
+        <div class="contacts__map map">
+          <div class="map--big">
+            <button class="modal-close" type="button">X</button>
+          </div>
         </div>
-      </div>
-      <div class="contacts__letter">
-        <a class="contacts__link in-depth" href="#">Напишите нам</a>
-        <form class="contacts__form" method="GET" action="https://echo.htmlacademy.ru">
-          <div class="contacts__name-block">
-            <label class="contacts__label" for="name">Ваше имя:</label>
-            <input class="contacts__name" type="text" id="name" name="name-field" placeholder="Имя Фамилия">
-          </div>
-          <div class="contacts__email-block">
-            <label class="contacts__label" for="email">Ваш e-mail:</label>
-            <input class="contacts__email" type="email" id="email" name="email-field" placeholder="email@example.com">
-          </div>
-          <div class="contacts__message-block">
-            <label class="contacts__label" for="message">Текст письма:</label>
-            <textarea class="contacts__message" id="message" name="message-field">В свободной форме</textarea>
-          </div>
-          <input class="contacts__send in-depth" type="submit" title="Отправить">
-        </form>
-      </div>
-    </section>
+        <div class="contacts__letter">
+          <a class="contacts__link in-depth" href="#">Напишите нам</a>
+          <form class="contacts__form" method="GET" action="https://echo.htmlacademy.ru">
+            <div class="contacts__name-block">
+              <label class="contacts__label" for="name">Ваше имя:</label>
+              <input class="contacts__name" type="text" id="name" name="name-field" placeholder="Имя Фамилия">
+            </div>
+            <div class="contacts__email-block">
+              <label class="contacts__label" for="email">Ваш e-mail:</label>
+              <input class="contacts__email" type="email" id="email" name="email-field" placeholder="email@example.com">
+            </div>
+            <div class="contacts__message-block">
+              <label class="contacts__label" for="message">Текст письма:</label>
+              <textarea class="contacts__message" id="message" name="message-field">В свободной форме</textarea>
+            </div>
+            <input class="contacts__send in-depth" type="submit" title="Отправить">
+          </form>
+        </div>
+      </section>
+   </div>
   </main>
   <footer class="page-footer page-footer--index">
     <span class="page-footer__logo logo logo--footer">Device</span>
