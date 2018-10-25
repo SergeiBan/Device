@@ -1,6 +1,7 @@
 .slider__item-pic {
   width: 384px;
-  height: 486px; }
+  height: 486px;
+  grid-column: 1 / 2; }
 
 .slider__item-description {
   font-size: 15px;
@@ -17,11 +18,11 @@
   line-height: 56px; }
 
 .slider__item {
-  display: none; }
+  display: none;
+  grid-template-columns: 600px 600px; }
 
 .slider__item--active {
-  display: block; }
+  display: grid; }
 
-.slider {
-  display: grid;
-  grid-template-columns: 600px 600px; }
+.slider__info {
+  grid-column: 2 / 3; }

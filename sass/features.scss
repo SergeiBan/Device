@@ -10,16 +10,22 @@
 
 .features__text {
   @include text1530;
+  width: 480px;
 }
 
 .features__description {
   display: none;
   grid-row: 1 / 4;
   grid-column: 2 / 3;
+  margin-right: 140px;
+  padding-left: 110px;
 }
 
 .features__description--delivery {
   display: block;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .features__list {
@@ -29,6 +35,8 @@
   display: grid;
   grid-template-rows: 40px 40px 40px;
   grid-row-gap: 40px;
+  margin-left: 140px;
+  padding: 0;
 }
 
 .features__item:nth-child(1) {

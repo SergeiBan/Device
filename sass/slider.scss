@@ -3,6 +3,7 @@
 .slider__item-pic {
   width: 384px; 
   height: 486px;
+  grid-column: 1 / 2;
 }
 
 .slider__item-description {
@@ -17,13 +18,14 @@
 
 .slider__item {
   display: none;
+  
+  grid-template-columns: 600px 600px;
 }
 
 .slider__item--active {
-  display: block;
+  display: grid;
 }
 
-.slider {
-  display: grid;
-  grid-template-columns: 600px 600px;
+.slider__info {
+  grid-column: 2 / 3;
 }
