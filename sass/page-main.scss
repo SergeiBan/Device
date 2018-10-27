@@ -12,6 +12,8 @@
 .page-main__sliders {
   margin: 0 140px;
   grid-row: 1 / 2;
+  display: grid;
+  grid-template-columns: 1120px;
 }
 
 .page-main {

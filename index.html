@@ -94,7 +94,8 @@
       <span class="page-header__logo logo">Device</span>
       <nav class="product-search">
         <input class="product-search__site-search site-search" type="text" id="site-search" name="site-search-field" value="Поиск по сайту">
-        <h2 class="product-search-goods goods">Каталог товаров</h2>
+        <label class="product-search__goods goods" for="goods-input">Каталог товаров</label>
+        <input class="product-search__goods-input" id="goods-input" type="checkbox">
         <ul class="product-search__goods-list goods-list">
           <li class="goods-list__good">Виртуальная реальность</li>
           <li class="goods-list__good">Моноподы для селфи</li>
@@ -125,6 +126,11 @@
     </header>
   <main class="page-main page-main--index">
     <section class="page-main__sliders slider">
+      <div class="toggles">
+        <div class="toggles__toggle"></div>
+        <div class="toggles__toggle"></div>
+        <div class="toggles__toggle"></div>
+        </div>
       <div class="slider__item slider__item--active">
         <figure class="slider__item-pic" width="384px" height="486px">
           <img class="slider__item-image" src="img/slider-1.png" alt="Фото восьми-метровой селфи-палки">
@@ -186,11 +192,6 @@
             <td>50 м</td>
           </tr>
         </table>
-      </div>
-      <div class="toggles">
-        <div class="toggle"></div>
-        <div class="toggle"></div>
-        <div class="toggle"></div>
       </div>
     </section>
     <section class="page-main__categories categories">

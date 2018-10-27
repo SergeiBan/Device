@@ -1,6 +1,35 @@
+.product-search {
+  display: flex;
+  flex-direction: column;
+
+}
+
 .product-search__goods-list {
   display: none;
   position: absolute;
   width: 100%;
   background-color: #f7e296;
+}
+
+.product-search__goods {
+  position: relative;
+}
+
+.product-search__goods-input {
+  // display: none;
+}
+
+.product-search__goods::after {
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 20px;
+  top: 20%;
+  right: -20px;
+  background: url('../img/plus.svg');
+  background-size: cover;
+}
+
+.product-search__goods-input:checked ~ .product-search__goods-list {
+  display: block;
 }
