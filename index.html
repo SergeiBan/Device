@@ -93,6 +93,7 @@
     <header class="page-header page-header--index">
       <span class="page-header__logo logo">Device</span>
       <nav class="product-search">
+        <label class="product-search__site-search-label" for="site-search"></label>
         <input class="product-search__site-search site-search" type="text" id="site-search" name="site-search-field" value="Поиск по сайту">
         <label class="product-search__goods goods" for="goods-input">Каталог товаров</label>
         <input class="product-search__goods-input" id="goods-input" type="checkbox">
@@ -126,13 +127,16 @@
     </header>
   <main class="page-main page-main--index">
     <section class="page-main__sliders slider">
-      <div class="toggles">
-        <div class="toggles__toggle"></div>
-        <div class="toggles__toggle"></div>
-        <div class="toggles__toggle"></div>
-        </div>
-      <div class="slider__item slider__item--active">
-        <figure class="slider__item-pic" width="384px" height="486px">
+      <!-- <div class="toggles"> -->
+        <input class="toggles__toggle" type="radio" id="toggle1" name="toggle-field">
+        <label class="toggles__toggle-label" for="toggle1"></label>
+        <input class="toggles__toggle" type="radio" id="toggle2" name="toggle-field">
+        <label class="toggles__toggle-label" for="toggle2"></label>
+        <input class="toggles__toggle" type="radio" id="toggle3" name="toggle-field">
+        <label class="toggles__toggle-label" for="toggle3"></label>
+        <!-- </div> -->
+      <div class="slider__item slider__item--active slider__item--first">
+        <figure class="slider__item-pic slider__item-pic--selfie" width="384px" height="486px">
           <img class="slider__item-image" src="img/slider-1.png" alt="Фото восьми-метровой селфи-палки">
         </figure>
         <div class="slider__info">
@@ -154,8 +158,8 @@
           </table>
       </div>
       </div>
-      <div class="slider__item">
-        <figure class="slider__item-pic" width="345" height="485">
+      <div class="slider__item slider__item--second">
+        <figure class="slider__item-pic slider__item-pic--fitness" width="345" height="485">
           <img class="slider__item-image" src="img/slider-2.png" alt="Фото Фитнес-браслета">
         </figure>
         <div class="slider__info">
@@ -173,25 +177,26 @@
           </table>
         </div>
       </div>
-      <div class="slider__item">
-        <figure class="slider__item-pic" width="526" height="334">
+      <div class="slider__item slider__item--third">
+        <figure class="slider__item-pic slider__item-pic--copter">
           <img class="slider__item-image" src="img/slider-3.png" alt="Фото квадрокоптера">
         </figure>
-        
-        <span class="slider__item-title">Порхает как бабочка, жалит как пчела!</span>
-        <p class="slider__item-description">Этот обычный, на первый взгляд, квадрокоптер оснащен 
-            мощным лазером, замаскированным под стандартную камеру.</p>
-        <a class="slider__item-details in-depth" href="#">Подробнее</a>
-        <table class="slider__item-table">
-          <tr>
-            <th>Дальность полета</th>
-            <th>Радиус поражения</th>
-          </tr>
-          <tr>
-            <td>800 м</td>
-            <td>50 м</td>
-          </tr>
-        </table>
+        <div class="slider__info">
+          <span class="slider__item-title">Порхает как бабочка, жалит как пчела!</span>
+          <p class="slider__item-description">Этот обычный, на первый взгляд, квадрокоптер оснащен 
+              мощным лазером, замаскированным под стандартную камеру.</p>
+          <a class="slider__item-details in-depth" href="#">Подробнее</a>
+          <table class="slider__item-table">
+            <tr>
+              <th>Дальность полета</th>
+              <th>Радиус поражения</th>
+            </tr>
+            <tr>
+              <td>800 м</td>
+              <td>50 м</td>
+            </tr>
+          </table>
+       </div>
       </div>
     </section>
     <section class="page-main__categories categories">

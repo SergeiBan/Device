@@ -1,10 +1,35 @@
 @import "mixins.scss";
 
 .slider__item-pic {
+  grid-column: 1 / 2;
+  margin: auto auto;
+}
+
+.slider__item-pic--copter {
+  width: 526px;
+  height: 334px;
+}
+
+.slider__item-pic--selfie {
   width: 384px; 
   height: 486px;
-  grid-column: 1 / 2;
 }
+
+.slider__item-pic--fitness {
+  width: 345px; 
+  height: 485px;
+}
+
+.slider__item-image {
+  top: 50%;
+  transform: translateY(-50%);
+  position: relative;
+}
+
+// .slider__item-image--copter {
+//   width: 345;
+//   height: 485;
+// }
 
 .slider__item-description {
   @include text1530;
@@ -18,8 +43,7 @@
 
 .slider__item {
   display: none;
-  
-  grid-template-columns: 600px 600px;
+  grid-template-columns: 580px 580px;
 }
 
 .slider__item--active {
@@ -28,4 +52,13 @@
 
 .slider__info {
   grid-column: 2 / 3;
+  padding: 85px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-right: 80px;
+}
+
+.slider__item-table {
+  text-align: left;
 }

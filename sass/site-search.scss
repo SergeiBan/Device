@@ -2,4 +2,8 @@
 
 .site-search {
   @include text1530;
+  border: none;
+  outline: none;
+  background: #f7e296;
+  position: relative;
 }
