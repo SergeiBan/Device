@@ -50,3 +50,6 @@
 
 .slider__item-table {
   text-align: left; }
+
+.slider {
+  position: relative; }

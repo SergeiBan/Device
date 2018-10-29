@@ -6,3 +6,11 @@
   align-items: center;
   justify-content: center;
 }
+
+.card__image:hover {
+  background-color: #f0c52e;
+}
+
+.card__image:active svg {
+  opacity: 0.3;
+}

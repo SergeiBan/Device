@@ -104,6 +104,9 @@ img {
 .slider__item-table {
   text-align: left; }
 
+.slider {
+  position: relative; }
+
 .features {
   background-image: linear-gradient(to bottom, #ffffff 100px, #e5e5e5 100px);
   min-width: 400px;
@@ -152,6 +155,16 @@ img {
   grid-row: 3 / 4;
   grid-column: 1 / 2; }
 
+.features-nav__link {
+  color: #000000;
+  text-decoration: none; }
+
+.features-nav__link:hover {
+  color: rgba(0, 0, 0, 0.6); }
+
+.features-nav__link:active {
+  color: rgba(0, 0, 0, 0.3); }
+
 .card__image {
   background-color: #f7e296;
   width: 160px;
@@ -159,6 +172,12 @@ img {
   display: flex;
   align-items: center;
   justify-content: center; }
+
+.card__image:hover {
+  background-color: #f0c52e; }
+
+.card__image:active svg {
+  opacity: 0.3; }
 
 .product__pic {
   width: 360px;
@@ -356,6 +375,16 @@ img {
   width: 100%;
   margin: 0; }
 
+.main-nav__link {
+  text-decoration: none;
+  color: #000000; }
+
+.main-nav__link:hover {
+  color: rgba(0, 0, 0, 0.6); }
+
+.main-nav__link:active {
+  color: rgba(0, 0, 0, 0.3); }
+
 .page-footer {
   background-color: #464646;
   display: flex;
@@ -473,7 +502,23 @@ img {
   font-weight: 900;
   color: #000000;
   text-decoration: none;
-  letter-spacing: 2px; }
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 220px;
+  height: 40px;
+  text-align: center;
+  vertical-align: bottom;
+  background-image: linear-gradient(to bottom, transparent 15px, #f0c52e 15px, #f0c52e 25px, transparent 25px, transparent 40px); }
+
+.in-depth:hover {
+  background: #f0c52e; }
+
+.in-depth:active {
+  opacity: 30%;
+  color: rgba(0, 0, 0, 0.3); }
 
 .logo {
   font-size: 48px;
@@ -485,6 +530,12 @@ img {
 .logo--footer {
   color: #ffc600; }
 
+.logo:hover {
+  opacity: 0.6; }
+
+.logo:active {
+  opacity: 0.3; }
+
 .site-search {
   font-size: 15px;
   line-height: 30px;
@@ -493,7 +544,20 @@ img {
   border: none;
   outline: none;
   background: #f7e296;
-  position: relative; }
+  position: relative;
+  color: rgba(0, 0, 0, 0.3);
+  width: 440px;
+  border-bottom: 2px solid transparent; }
+
+.site-search:hover {
+  color: rgba(0, 0, 0, 0.6); }
+
+.site-search:focus {
+  color: #000000;
+  border-bottom: 2px solid #000000; }
+
+.site-search:focus::placeholder {
+  color: red; }
 
 .info__title {
   font-size: 47px;
@@ -623,6 +687,14 @@ symbol {
   display: flex;
   justify-content: space-between;
   padding: 0; }
+
+.manufacturers__img {
+  filter: grayscale(100%);
+  opacity: 0.3; }
+
+.manufacturers__img:hover {
+  filter: grayscale(0%);
+  opacity: 1; }
 
 .toggles__toggle {
   display: none; }

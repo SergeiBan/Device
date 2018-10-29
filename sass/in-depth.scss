@@ -5,4 +5,22 @@
   color: #000000;
   text-decoration: none;
   letter-spacing: 2px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 220px;
+  height: 40px;
+  text-align: center;
+  vertical-align: bottom;
+  background-image: linear-gradient(to bottom, transparent 15px, #f0c52e 15px, #f0c52e 25px, transparent 25px, transparent 40px);
+}
+
+.in-depth:hover {
+  background: #f0c52e;
+}
+
+.in-depth:active {
+  opacity: 30%;
+  color: rgba(0, 0, 0, 0.3);
 }

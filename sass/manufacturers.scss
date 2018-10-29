@@ -9,3 +9,13 @@
   justify-content: space-between;
   padding: 0;
 }
+
+.manufacturers__img {
+  filter: grayscale(100%);
+  opacity: 0.3;
+}
+
+.manufacturers__img:hover {
+  filter: grayscale(0%);
+  opacity: 1;
+}
