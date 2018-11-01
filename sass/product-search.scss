@@ -1,22 +1,26 @@
+@import "mixins.scss";
+
 .product-search {
   display: flex;
   flex-direction: column;
-
+  position: relative;
 }
 
 .product-search__goods-list {
   display: none;
-  position: absolute;
   width: 100%;
   background-color: #f7e296;
 }
 
 .product-search__goods {
   position: relative;
+  @include text1824;
 }
 
-.product-search__goods-input {
-  // display: none;
+.product-search__goods:hover ~ .product-search__goods-list {
+  display: grid;
+  grid-row: 2 / 3;
+  z-index: 2;
 }
 
 .product-search__goods::after {
@@ -32,4 +36,21 @@
 
 .product-search__goods-input:checked ~ .product-search__goods-list {
   display: block;
+}
+
+.product-search__site-search-label {
+  position: absolute;
+  top: 5px;
+  left: 25px;
+  @include text1530;
+  color: rgba(0, 0, 0, 0.3);
+  z-index: 2;
+}
+
+.product-search__site-search-label:hover {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.product-search__site-search:focus ~ .product-search__site-search-label {
+  display: none;
 }

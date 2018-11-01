@@ -93,10 +93,9 @@
     <header class="page-header page-header--index">
       <span class="page-header__logo logo">Device</span>
       <nav class="product-search">
-        <label class="product-search__site-search-label" for="site-search"></label>
-        <input class="product-search__site-search site-search" type="text" id="site-search" name="site-search-field" value="Поиск по сайту">
-        <label class="product-search__goods goods" for="goods-input">Каталог товаров</label>
-        <input class="product-search__goods-input" id="goods-input" type="checkbox">
+        <input class="product-search__site-search site-search" type="text" id="site-search" name="site-search-field">
+        <label class="product-search__site-search-label" for="site-search">Поиск по сайту</label>
+        <h2 class="product-search__goods goods" for="goods-input">Каталог товаров</h2>
         <ul class="product-search__goods-list goods-list">
           <li class="goods-list__good">Виртуальная реальность</li>
           <li class="goods-list__good">Моноподы для селфи</li>
@@ -250,20 +249,21 @@
       </div>
     </section>
     <section class="page-main__features features">
-      <ul class="features__list">
-        <li class="features__item in-depth">Доставка</li>
-        <li class="features__item in-depth">Гарантия</li>
-        <li class="features__item in-depth">Кредит</li>
-      </ul>
+      <label class="features__item-label in-depth" for="delivery">Доставка</label>
+      <input class="features__item-input" type="radio" id="delivery" name="features__item-field" checked>
       <div class="features__description features__description--delivery">
         <h2>Доставка</h2>
         <p class="features__text">Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж.</p>
       </div>
+      <label class="features__item-label in-depth" for="warranty">Гарантия</label>
+      <input class="features__item-input" type="radio" id="warranty" name="features__item-field">
       <div class="features__description features__description--warranty">
         <h2>Гарантия</h2>
         <p class="features__text">Если из-за возгорания купленного у нас товара у вас сгорит дом — не переживайте, мы выдадим вам новый.
             Товар, не дом, конечно же.</p>
       </div>
+      <label class="features__item-label in-depth" for="credit">Кредит</label>
+      <input class="features__item-input" type="radio" id="credit" name="features__item-field">
       <div class="features__description features__description--credit">
         <h2>Кредит</h2>
         <p class="features__text">Залезть в долговую яму стало проще! Кредитные консультанты подберут для вас наиболее выгодные 
