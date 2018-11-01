@@ -113,7 +113,9 @@ img {
   display: grid;
   grid-template-columns: 280px 880px;
   grid-template-rows: 40px 40px 40px;
-  padding-top: 80px; }
+  grid-row-gap: 20px;
+  padding-top: 80px;
+  padding-left: 140px; }
 
 .features__text {
   font-size: 15px;
@@ -133,18 +135,15 @@ img {
   flex-direction: column;
   align-items: flex-start; }
 
-.features__item-label {
-  margin-left: 140px; }
-
-.features__item-label:nth-child(1) {
+.features__item-label--delivery {
   grid-row: 1 / 2;
   grid-column: 1 / 2; }
 
-.features__item-label:nth-child(2) {
+.features__item-label--warranty {
   grid-row: 2 / 3;
   grid-column: 1 / 2; }
 
-.features__item-label:nth-child(3) {
+.features__item-label--credit {
   grid-row: 3 / 4;
   grid-column: 1 / 2; }
 
@@ -164,8 +163,18 @@ img {
 .features__item-input:checked + .features__description {
   display: flex; }
 
-.features__item-input:checked {
-  background-color: #000000; }
+.features__item-input--delivery:checked ~ .features__item-label--delivery {
+  background: #000000;
+  color: #f7e184;
+  width: 360px; }
+
+.features__item-input--warranty:checked ~ .features__item-label--warranty {
+  background: #000000;
+  color: #f7e184; }
+
+.features__item-input--credit:checked ~ .features__item-label--credit {
+  background: #000000;
+  color: #f7e184; }
 
 .card__image {
   background-color: #f7e296;
