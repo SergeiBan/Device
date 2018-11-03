@@ -33,19 +33,20 @@
 .product-search__goods-input:checked ~ .product-search__goods-list {
   display: block; }
 
-.product-search__site-search-label {
-  position: absolute;
-  top: 5px;
-  left: 25px;
+.product-search__site-search::placeholder {
+  color: rgba(0, 0, 0, 0.3);
   font-size: 15px;
   line-height: 30px;
   font-family: "Open Sans";
-  font-weight: 300;
-  color: rgba(0, 0, 0, 0.3);
-  z-index: 2; }
+  font-weight: 300; }
 
-.product-search__site-search-label:hover {
+.product-search__site-search:hover::placeholder {
   color: rgba(0, 0, 0, 0.6); }
 
-.product-search__site-search:focus ~ .product-search__site-search-label {
-  display: none; }
+.product-search__site-search-label {
+  position: absolute;
+  content: "";
+  width: 16px;
+  height: 16px;
+  top: -30px;
+  left: -30px; }

@@ -38,19 +38,31 @@
   display: block;
 }
 
-.product-search__site-search-label {
-  position: absolute;
-  top: 5px;
-  left: 25px;
-  @include text1530;
+.product-search__site-search::placeholder {
   color: rgba(0, 0, 0, 0.3);
-  z-index: 2;
+  @include text1530;
 }
 
-.product-search__site-search-label:hover {
+.product-search__site-search:hover::placeholder {
   color: rgba(0, 0, 0, 0.6);
 }
 
-.product-search__site-search:focus ~ .product-search__site-search-label {
-  display: none;
+.product-search__site-search-label {
+  position: absolute;
+  content: "";
+  width: 16px;
+  height: 16px;
+  top: -30px;
+  left: -30px;
 }
+
+
+// .product-search__site-search-label::before {
+//   position: absolute;
+//   content: "";
+//   width: 16px;
+//   height: 16px;
+//   background-image: url("../img/search.svg");
+//   top: -30px;
+//   left: -30px;
+// }

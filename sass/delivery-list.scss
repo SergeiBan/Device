@@ -2,4 +2,23 @@
 
 .delivery-list {
   @include text1640;
+  list-style: none;
+  padding-left: 25px;
+  margin-bottom: 76px;
+}
+
+.delivery-list__item {
+  position: relative;
+}
+
+.delivery-list__item::before {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border: 2px solid #e5e5e5;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -25px;
+  border-radius: 50px;
 }

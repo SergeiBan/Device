@@ -1,11 +1,5 @@
 @import "mixins.scss";
 
-.categories__link {
-  text-decoration: none;
-  @include text1824;
-  color: #000000;
-}
-
 .categories {
   display: flex;
   justify-content: space-between;

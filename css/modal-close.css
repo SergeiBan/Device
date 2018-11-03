@@ -1,0 +1,14 @@
+.modal-close {
+  border: none;
+  background: transparent;
+  width: 55px;
+  height: 55px;
+  background-image: url("../img/modal-close.svg");
+  opacity: 0.5; }
+
+.modal-close:hover {
+  opacity: 1; }
+
+.modal-close:active {
+  opacity: 0.3;
+  outline: none; }

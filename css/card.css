@@ -4,10 +4,26 @@
   min-height: 160px;
   display: flex;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  margin-bottom: 40px; }
 
 .card__image:hover {
   background-color: #f0c52e; }
 
-.card__image:active svg {
+.card:active svg {
+  opacity: 0.3; }
+
+.card {
+  width: 160px; }
+
+.card__link {
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 24px;
+  font-family: "Gilroy";
+  font-weight: 900;
+  color: #000000;
+  width: 160px; }
+
+.card:active .card__link {
   opacity: 0.3; }

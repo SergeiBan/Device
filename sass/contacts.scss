@@ -2,14 +2,33 @@
 
 .contacts__welcome {
   @include text1530;
+  margin-bottom: 40px;
 }
 
 .contacts__label {
   @include text1824;
+  margin-bottom: 13px;
 }
 
-.contacts__form placeholder {
+.contacts__message,
+.contacts__email,
+.contacts__name {
   @include text1418;
+  color: #464646;
+}
+
+.contacts__message:focus,
+.contacts__email:focus,
+.contacts__name:focus {
+  border: 3px solid #f0c52e;
+  outline: none;
+  background: #ffffff;
+}
+
+.contacts__form input::placeholder {
+  @include text1418;
+  color: #464646;
+  opacity: 0.4;
 }
 
 .contacts__message {
@@ -18,4 +37,65 @@
 
 .contacts {
   grid-column: 2 / 3;
+  position: relative;
+}
+
+.contacts__title {
+  @include text4748;
+}
+
+.contacts__form {
+  // display: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: absolute;
+  top: -500px;
+  left: -500px;
+  width: 960px;
+  min-height: 585px;
+  padding: 100px;
+  background: #ffffff;
+}
+
+.contacts__name-block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 360px;
+}
+
+.contacts__name,
+.contacts__email {
+  width: 100%;
+  height: 50px;
+  padding: 20px;
+  background: #f2f2f2;
+  border: none;
+}
+
+.contacts__email-block {
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.contacts__message-block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.contacts__message {
+  border: none;
+  background: #f2f2f2;
+  width: 760px;
+  min-height: 156px;
+}
+
+.contacts__modal-close {
+  position: absolute;
+  top: 22px;
+  right: 22px;
 }

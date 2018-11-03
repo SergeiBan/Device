@@ -4,5 +4,14 @@
   font-family: "Open Sans";
   font-weight: 300; }
 
+.about-us__text:last-of-type {
+  margin-bottom: 70px; }
+
 .about-us {
   grid-column: 1 / 2; }
+
+.about-us__title {
+  font-size: 47px;
+  line-height: 48px;
+  font-family: "Gilroy";
+  font-weight: 900; }

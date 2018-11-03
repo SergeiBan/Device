@@ -68,18 +68,23 @@
   display: flex;
 }
 
-.features__item-input--delivery:checked ~ .features__item-label--delivery {
+.features__item-input--delivery:active ~ .features__item-label--delivery {
   background: #000000;
   color: #f7e184;
   width: 360px;
+  padding-right: 140px;
 }
 
-.features__item-input--warranty:checked ~ .features__item-label--warranty {
+.features__item-input--warranty:active ~ .features__item-label--warranty {
   background: #000000;
   color: #f7e184;
+  width: 360px;
+  padding-right: 140px;
 }
 
-.features__item-input--credit:checked ~ .features__item-label--credit {
+.features__item-input--credit:active ~ .features__item-label--credit {
   background: #000000;
   color: #f7e184;
+  width: 360px;
+  padding-right: 140px;
 }

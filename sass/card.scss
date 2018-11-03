@@ -1,3 +1,5 @@
+@import "mixins.scss";
+
 .card__image {
   background-color: #f7e296;
   width: 160px;
@@ -5,12 +7,28 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 40px;
 }
 
 .card__image:hover {
   background-color: #f0c52e;
 }
 
-.card__image:active svg {
+.card:active svg {
   opacity: 0.3;
 }
+
+.card {
+  width: 160px;
+}
+
+.card__link {
+  text-decoration: none;
+  @include text1824;
+  color: #000000;
+  width: 160px;
+}
+
+.card:active .card__link {
+  opacity: 0.3;
+} 

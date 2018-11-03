@@ -4,6 +4,14 @@
   @include text1530;
 }
 
+.about-us__text:last-of-type {
+  margin-bottom: 70px;
+}
+
 .about-us {
   grid-column: 1 / 2;
+}
+
+.about-us__title {
+  @include text4748;
 }
