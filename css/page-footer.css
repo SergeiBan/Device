@@ -19,23 +19,41 @@
 .page-footer__features {
   display: flex;
   align-items: center;
-  justify-content: space-between; }
+  justify-content: space-between;
+  margin-bottom: 60px; }
 
 .page-footer__logo {
   position: absolute;
-  top: 68px;
+  top: 64px;
   left: 140px; }
 
 .page-footer__main-nav {
   width: 640px;
   padding-left: 160px;
-  align-self: flex-end; }
+  align-self: flex-end;
+  margin-bottom: 60px; }
 
 .page-footer__connections {
   display: flex;
   align-self: flex-end;
   width: 660px;
-  justify-content: space-between; }
+  justify-content: space-between;
+  align-items: center; }
 
 .page-footer--index {
   grid-row: -1 / -2; }
+
+.page-footer__academy:hover svg {
+  opacity: 0.6; }
+
+.page-footer__academy:active svg {
+  opacity: 0.3; }
+
+.page-footer::after {
+  content: "";
+  position: absolute;
+  width: 80px;
+  height: 7px;
+  background-color: #ffc600;
+  bottom: 79px;
+  left: 140px; }

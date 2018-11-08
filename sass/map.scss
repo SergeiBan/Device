@@ -5,5 +5,9 @@
 }
 
 .map__big {
-  display: none;
+  position: absolute;
+  top: -500px;
+  left: -550px;
+  width: 960px;
+  height: 559px;
 }

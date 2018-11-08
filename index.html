@@ -99,24 +99,25 @@
           <use xlink:href="#search"></use>
         </svg>
         <!-- <label class="product-search__site-search-label" for="site-search"></label> -->
-        <h2 class="product-search__goods goods" for="goods-input">Каталог товаров</h2>
+        <input class="product-search__menu" id="goods-input" name="goods-input-field" type="checkbox">
+        <label class="product-search__goods goods" for="goods-input">Каталог товаров</label>
         <ul class="product-search__goods-list goods-list">
-          <li class="goods-list__good">Виртуальная реальность</li>
-          <li class="goods-list__good">Моноподы для селфи</li>
-          <li class="goods-list__good">Экшн-камеры</li>
-          <li class="goods-list__good">Фитнес-браслеты</li>
-          <li class="goods-list__good">Умные часы</li>
-          <li class="goods-list__good">Квадрокоптеры</li>
+          <li class="goods-list__good"><a class="goods-list__link" href="#">Виртуальная реальность</a></li>
+          <li class="goods-list__good"><a class="goods-list__link" href="#">Моноподы для селфи</a></li>
+          <li class="goods-list__good"><a class="goods-list__link" href="#">Экшн-камеры</a></li>
+          <li class="goods-list__good"><a class="goods-list__link" href="#">Фитнес-браслеты</a></li>
+          <li class="goods-list__good"><a class="goods-list__link" href="#">Умные часы</a></li>
+          <li class="goods-list__good"><a class="goods-list__link" href="#">Квадрокоптеры</a></li>
         </ul>
       </nav>
       <div class="navigation">
       <nav class="main-nav">
         <ul class="main-nav__items">
-          <li class="main-nav__item"><a class="main-nav__link" href="#">Валентин Петухов</a></li>
-          <li class="main-nav__item"><a class="main-nav__link" href="#">Войти</a></li>
-          <li class="main-nav__item"><a class="main-nav__link" href="#">Выйти</a></li>
-          <li class="main-nav__item"><a class="main-nav__link" href="#">Сравнить</a></li>
-          <li class="main-nav__item"><a class="main-nav__link" href="#">Корзина</a></li>
+          <li class="main-nav__item not-shown"><a class="main-nav__link main-nav__link--person" href="#">Валентин Петухов</a></li>
+          <li class="main-nav__item"><a class="main-nav__link main-nav__link--enter" href="#">Войти</a></li>
+          <li class="main-nav__item not-shown"><a class="main-nav__link main-nav__link--exit" href="#">Выйти</a></li>
+          <li class="main-nav__item"><a class="main-nav__link main-nav__link--compare" href="#">Сравнить</a></li>
+          <li class="main-nav__item"><a class="main-nav__link main-nav__link--cart" href="#">Корзина</a></li>
         </ul>
       </nav>
       <nav class="features-nav">
@@ -131,12 +132,12 @@
   <main class="page-main page-main--index">
     <section class="page-main__sliders slider">
       <!-- <div class="toggles"> -->
-        <input class="toggles__toggle" type="radio" id="toggle1" name="toggle-field">
-        <label class="toggles__toggle-label" for="toggle1"></label>
-        <input class="toggles__toggle" type="radio" id="toggle2" name="toggle-field">
-        <label class="toggles__toggle-label" for="toggle2"></label>
-        <input class="toggles__toggle" type="radio" id="toggle3" name="toggle-field">
-        <label class="toggles__toggle-label" for="toggle3"></label>
+      <input class="toggles__toggle" type="radio" id="toggle1" name="toggle-field" checked>
+      <label class="toggles__toggle-label" for="toggle1"></label>
+      <input class="toggles__toggle" type="radio" id="toggle2" name="toggle-field">
+      <label class="toggles__toggle-label" for="toggle2"></label>
+      <input class="toggles__toggle" type="radio" id="toggle3" name="toggle-field">
+      <label class="toggles__toggle-label" for="toggle3"></label>
         <!-- </div> -->
       <div class="slider__item slider__item--active slider__item--first">
         <figure class="slider__item-pic slider__item-pic--selfie" width="384px" height="486px">
@@ -148,18 +149,18 @@
               Восемь (Восемь, Карл!) метров длиной и весом всего 5 килограмм.</p>
           <a class="slider__item-details in-depth" href="#">Подробнее</a>
           <table class="slider__item-table">
-            <tr>
-              <th>Длина палки</th>
-              <th>Вес палки</th>
-              <th>Материал</th>
-            </tr>
-            <tr>
+            <tr class="slider__item-header">
               <td>8,5 м</td>
               <td>5 кг</td>
               <td>Карбон</td>
             </tr>
+            <tr>
+              <td>Длина палки</td>
+              <td>Вес палки</td>
+              <td>Материал</td>
+            </tr>
           </table>
-      </div>
+        </div>
       </div>
       <div class="slider__item slider__item--second">
         <figure class="slider__item-pic slider__item-pic--fitness" width="345" height="485">
@@ -171,11 +172,11 @@
               не пропускать занятия и соблюдать диету.</p>
           <a class="slider__item-details in-depth" href="#">Подробнее</a>
           <table class="slider__item-table">
-            <tr>
-              <th>Без подзарядки</th>
+            <tr class="slider__item-header">
+              <td>48 часов</td>
             </tr>
             <tr>
-              <td>48 часов</td>
+              <td>Без подзарядки</td>
             </tr>
           </table>
         </div>
@@ -190,13 +191,13 @@
               мощным лазером, замаскированным под стандартную камеру.</p>
           <a class="slider__item-details in-depth" href="#">Подробнее</a>
           <table class="slider__item-table">
-            <tr>
-              <th>Дальность полета</th>
-              <th>Радиус поражения</th>
-            </tr>
-            <tr>
+            <tr class="slider__item-header">
               <td>800 м</td>
               <td>50 м</td>
+            </tr>
+            <tr>
+              <td>Дальность полета</td>
+              <td>Радиус поражения</td>
             </tr>
           </table>
        </div>
@@ -316,7 +317,8 @@
         </p>
         <div class="contacts__map map">
           <img class="map__small" src="img/map.jpg" alt="Малая карта">
-          <div class="map__big">
+          <div class="map__big not-shown">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1982.4673249618602!2d29.680005716107832!3d60.20609788197421!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469654e1c2add12b%3A0x9aec714d5269991a!2z0YPQuy4g0KHRgtGA0L7QuNGC0LXQu9C10LksIDE1LCDQl9C10LvQtdC90L7Qs9C-0YDRgdC6LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTk3NzIw!5e0!3m2!1sru!2sru!4v1541717989362" width="960" height="559" frameborder="0" style="border:0" allowfullscreen></iframe>
             <button class="modal-close" type="button">X</button>
           </div>
         </div>
@@ -346,20 +348,20 @@
     <span class="page-footer__logo logo logo--footer">Device</span>
     <nav class="page-footer__main-nav main-nav">
       <ul class="main-nav__items">
-        <li class="main-nav__item">Валентин Петухов</li>
-        <li class="main-nav__item">Войти</li>
-        <li class="main-nav__item">Выйти</li>
-        <li class="main-nav__item">Сравнить</li>
-        <li class="main-nav__item">Корзина</li>
+        <li class="main-nav__item not-shown"><a class="main-nav__link main-nav__link--person-footer" href="#">Валентин Петухов</a></li>
+        <li class="main-nav__item"><a class="main-nav__link main-nav__link--enter-footer" href="#">Войти</a></li>
+        <li class="main-nav__item not-shown"><a class="main-nav__link main-nav__link--exit-footer" href="#">Выйти</a></li>
+        <li class="main-nav__item"><a class="main-nav__link main-nav__link--compare-footer" href="#">Сравнить</a></li>
+        <li class="main-nav__item"><a class="main-nav__link main-nav__link--cart-footer" href="#">Корзина</a></li>
       </ul>
     </nav>
     <div class="page-footer__features">
       <span class="page-footer__address">г. Москва, ул. Строителей, 15 </span>
       <nav class="features-nav features-nav--footer">
         <ul class="features-nav__list">
-          <li class="features-nav__item">Доставка</li>
-          <li class="features-nav__item">Гарантия</li>
-          <li class="features-nav__item">Контакты</li>
+          <li class="features-nav__item"><a class="features-nav__link features-nav__link--footer" href="#">Доставка</a></li>
+          <li class="features-nav__item"><a class="features-nav__link features-nav__link--footer" href="#">Гарантия</a></li>
+          <li class="features-nav__item"><a class="features-nav__link features-nav__link--footer" href="#">Контакты</a></li>
         </ul>
       </nav>
       <span class="contacts__tel">Тел.: +7 (495) 495-95-95</span>

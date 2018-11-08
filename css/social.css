@@ -4,3 +4,12 @@
   width: 160px;
   justify-content: space-around;
   padding: 0; }
+
+.social__item {
+  opacity: 0.3; }
+
+.social__item:hover {
+  opacity: 0.6; }
+
+.social__item:active {
+  opacity: 0.1; }

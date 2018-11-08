@@ -19,7 +19,8 @@
   line-height: 18px;
   font-family: "Open Sans";
   font-weight: 400;
-  color: #464646; }
+  color: #464646;
+  border: 3px solid transparent; }
 
 .contacts__message:focus,
 .contacts__email:focus,
@@ -90,7 +91,7 @@
   align-items: flex-start; }
 
 .contacts__message {
-  border: none;
+  border: 3px solid transparent;
   background: #f2f2f2;
   width: 760px;
   min-height: 156px; }
@@ -99,3 +100,6 @@
   position: absolute;
   top: 22px;
   right: 22px; }
+
+.contacts__form input:invalid {
+  background-color: rgba(237, 181, 181, 0.5); }

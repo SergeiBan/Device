@@ -67,3 +67,25 @@
   font-family: "Open Sans";
   font-weight: 300;
 }
+
+@mixin text1536 {
+  font-size: 15px;
+  line-height: 36px;
+  font-family: "Open Sans";
+  font-weight: 300;
+  letter-spacing: 0.15px;
+}
+
+@mixin text3648 {
+  font-size: 36px;
+  line-height: 48px;
+  font-family: "Gilroy";
+  font-weight: 300;
+}
+
+@mixin text1320 {
+  font-size: 13px;
+  line-height: 20px;
+  font-family: "Open Sans";
+  font-weight: 300;
+}

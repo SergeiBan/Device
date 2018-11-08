@@ -6,13 +6,29 @@
   width: 100%; }
 
 .features-nav--footer {
-  width: 560px;
+  width: 430px;
   align-self: center; }
 
 .features-nav__list {
   list-style: none;
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  padding: 0;
+  text-transform: uppercase; }
 
 .features-nav__item--contacts {
   margin-left: 112px; }
+
+.features-nav__link {
+  color: #000000;
+  text-decoration: none;
+  letter-spacing: 3.6px; }
+
+.features-nav__link:hover {
+  opacity: 0.6; }
+
+.features-nav__link:active {
+  opacity: 0.3; }
+
+.features-nav__link--footer {
+  color: #ffffff; }

@@ -38,16 +38,6 @@
   grid-row: 3 / 4;
   grid-column: 1 / 2; }
 
-.features-nav__link {
-  color: #000000;
-  text-decoration: none; }
-
-.features-nav__link:hover {
-  color: rgba(0, 0, 0, 0.6); }
-
-.features-nav__link:active {
-  color: rgba(0, 0, 0, 0.3); }
-
 .features__item-input {
   display: none; }
 
