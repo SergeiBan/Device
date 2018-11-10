@@ -10,8 +10,13 @@
   padding: 0;
   position: absolute;
   top: 85px;
+  left: 0;
   min-height: 130px;
   width: 1160px; }
+
+.product-search__goods-list--catalog {
+  top: 90%;
+  left: -40px; }
 
 .product-search__goods {
   position: relative;

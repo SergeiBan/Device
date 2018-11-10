@@ -310,13 +310,29 @@ img {
   font-size: 14px;
   line-height: 40px;
   font-family: "Open Sans";
-  font-weight: 300; }
+  font-weight: 300;
+  position: relative;
+  padding-left: 40px; }
+
+.filter__label::before {
+  content: "";
+  position: absolute;
+  top: 25%;
+  left: 0px;
+  width: 27px;
+  height: 23px;
+  background: url("../img/checkbox-off.svg") 0 0 no-repeat; }
+
+.filter__color:checked + .filter__label::before {
+  background: url("../img/checkbox-on.svg") 0 0 no-repeat; }
 
 .filter__bluetooth-label {
   font-size: 14px;
   line-height: 40px;
   font-family: "Open Sans";
-  font-weight: 300; }
+  font-weight: 300;
+  position: relative;
+  padding-left: 40px; }
 
 .filter__color-block {
   display: flex;
@@ -328,10 +344,22 @@ img {
 .filter__bluetooth-block {
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  align-items: left; }
 
 .filter__bluetooth {
   display: none; }
+
+.filter__bluetooth-label::before {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 25%;
+  left: -0px;
+  background: url("../img/radio-off.svg") 0 0 no-repeat; }
+
+.filter__bluetooth:checked + .filter__bluetooth-label::before {
+  background: url("../img/radio-on.svg") 0 0 no-repeat; }
 
 .catalog__sorting {
   background-color: #ebebeb;
@@ -816,8 +844,15 @@ img {
   line-height: 24px;
   font-family: "Open Sans";
   font-weight: 300;
-  color: #cacaca;
-  text-decoration: none; }
+  color: #000000;
+  text-decoration: none;
+  opacity: 0.3; }
+
+.info__link:hover {
+  opacity: 0.6; }
+
+.info__link:acitve {
+  opacity: 0.1; }
 
 .info {
   grid-row: 1 / 2;
@@ -842,8 +877,13 @@ symbol {
   padding: 0;
   position: absolute;
   top: 85px;
+  left: 0;
   min-height: 130px;
   width: 1160px; }
+
+.product-search__goods-list--catalog {
+  top: 90%;
+  left: -40px; }
 
 .product-search__goods {
   position: relative;
@@ -916,11 +956,6 @@ symbol {
   width: 1440px;
   margin: 0 auto; }
 
-.page-main--catalog {
-  display: grid;
-  grid-template-rows: 180px 1285px;
-  grid-template-columns: 465px 975px; }
-
 .page-main--index {
   grid-row: 2 / 3;
   grid-column: 1 / 2; }
@@ -934,6 +969,11 @@ symbol {
 .page-main {
   display: grid;
   grid-template-rows: 600px 330px 390px 290px 660px; }
+
+.page-main--catalog {
+  display: grid;
+  grid-template-rows: 180px 1285px;
+  grid-template-columns: 465px 975px; }
 
 .page-main__categories {
   grid-row: 2 / 3; }

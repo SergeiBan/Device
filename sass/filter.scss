@@ -21,15 +21,34 @@
 
 .filter__label {
   @include text1440;
+  position: relative;
+  padding-left: 40px;
+}
+
+.filter__label::before {
+  content: "";
+  position: absolute;
+  top: 25%;
+  left: 0px;
+  width: 27px;
+  height: 23px;
+  background: url("../img/checkbox-off.svg") 0 0 no-repeat;
+}
+
+.filter__color:checked + .filter__label::before {
+  background: url("../img/checkbox-on.svg") 0 0 no-repeat;
 }
 
 .filter__bluetooth-label {
   @include text1440;
+  position: relative;
+  padding-left: 40px;
 }
 
 .filter__color-block {
   display: flex;
   flex-direction: column;
+  
 }
 
 .filter__color {
@@ -39,9 +58,28 @@
 .filter__bluetooth-block {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
+  
 }
 
 .filter__bluetooth {
   display: none;
+}
+
+.filter__bluetooth-label::before {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 25%;
+  left: -0px;
+  background: url("../img/radio-off.svg") 0 0 no-repeat;
+}
+
+.filter__bluetooth:checked + .filter__bluetooth-label::before {
+  background: url("../img/radio-on.svg") 0 0 no-repeat;
+}
+
+.filter__button {
+  
 }

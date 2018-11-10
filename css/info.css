@@ -14,8 +14,15 @@
   line-height: 24px;
   font-family: "Open Sans";
   font-weight: 300;
-  color: #cacaca;
-  text-decoration: none; }
+  color: #000000;
+  text-decoration: none;
+  opacity: 0.3; }
+
+.info__link:hover {
+  opacity: 0.6; }
+
+.info__link:acitve {
+  opacity: 0.1; }
 
 .info {
   grid-row: 1 / 2;
