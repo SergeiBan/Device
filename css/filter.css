@@ -50,7 +50,8 @@
 
 .filter__color-block {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  border-top: 2px solid #000000; }
 
 .filter__color {
   display: none; }
@@ -58,7 +59,8 @@
 .filter__bluetooth-block {
   display: flex;
   flex-direction: column;
-  align-items: left; }
+  align-items: left;
+  border-top: 2px solid #000000; }
 
 .filter__bluetooth {
   display: none; }
@@ -74,3 +76,9 @@
 
 .filter__bluetooth:checked + .filter__bluetooth-label::before {
   background: url("../img/radio-on.svg") 0 0 no-repeat; }
+
+.filter__price-block {
+  border-top: 2px solid #000000; }
+
+.filter__container {
+  width: 201px; }
