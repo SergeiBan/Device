@@ -19,7 +19,8 @@
   background-image: linear-gradient(to bottom, transparent 15px, #f0c52e 15px, #f0c52e 25px, transparent 25px, transparent 40px); }
 
 .in-depth:hover {
-  background: #f0c52e; }
+  background: #f0c52e;
+  transition: all 0.1s; }
 
 .in-depth:active {
   opacity: 30%;
