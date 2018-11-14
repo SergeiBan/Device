@@ -21,12 +21,14 @@
 .product-search__goods-list--catalog {
   top: 90%;
   left: -40px;
+  padding-left: 40px;
 }
 
 .product-search__goods {
   position: relative;
   @include text1824;
   text-transform: uppercase;
+  margin: 50px 0;
 }
 
 .product-search__goods:hover {
@@ -65,7 +67,6 @@
 // }
 
 .product-search__site-search {
-  margin-bottom: 20px;
   padding-left: 35px;
 }
 

@@ -5,6 +5,9 @@
   font-weight: 900;
   width: 100%; }
 
+.features-nav--header {
+  margin: 50px 0; }
+
 .features-nav--footer {
   width: 430px;
   align-self: center; }
@@ -14,6 +17,7 @@
   display: flex;
   justify-content: space-between;
   padding: 0;
+  margin: 0;
   text-transform: uppercase; }
 
 .features-nav__item--contacts {

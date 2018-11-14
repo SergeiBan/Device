@@ -5,15 +5,24 @@
   grid-column: 1 / 3;
   display: flex;
   justify-content: space-between;
-  margin-left: 20px;
   align-items: center;
-  padding: 0px 20px;
   text-transform: uppercase;
+  margin: 0 20px 77px 20px;
 }
 
 .pagination__direction {
   @include text1624;
   letter-spacing: 4px;
+  display: block;
+  padding: 30px;
+}
+
+.pagination__direction:hover {
+  background-color: #d8d8d8;
+}
+
+.pagination__direction:active > * {
+  opacity: 0.3;
 }
 
 .pagination__link {
@@ -24,6 +33,14 @@
   opacity: 0.3;
   text-decoration: none;
   color: #000000;
+}
+
+.pagination__link[href]:hover {
+  opacity: 0.6;
+}
+
+.pagination__link[href]:active {
+  opacity: 1;
 }
 
 .pagination__list {
