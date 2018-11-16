@@ -3,6 +3,25 @@
   flex-direction: column;
   position: relative; }
 
+.product-search__submit {
+  display: block;
+  width: 85px;
+  height: 49px;
+  background: transparent;
+  border: 2px solid #000000;
+  font-size: 15px;
+  line-height: 30px;
+  font-family: "Open Sans";
+  font-weight: 300;
+  letter-spacing: 0.15px;
+  position: absolute;
+  right: -0px;
+  top: -16px;
+  display: none; }
+
+.product-search__form {
+  position: relative; }
+
 .product-search__goods-list {
   display: none;
   width: 100%;
@@ -55,6 +74,19 @@
 .product-search__site-search {
   margin-bottom: 20px;
   padding-left: 35px; }
+
+.product-search__site-search:focus ~ .product-search__submit {
+  display: block; }
+
+.product-search__submit:hover {
+  background-color: #000000;
+  color: #ffffff;
+  display: block; }
+
+.product-search__submit:active {
+  color: rgba(255, 255, 255, 0.3);
+  background-color: #000000;
+  display: block; }
 
 .product-search__site-search::placeholder {
   color: rgba(0, 0, 0, 0.3);

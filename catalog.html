@@ -94,7 +94,10 @@
   <header class="page-header page-header--catalog">
     <span class="page-header__logo logo">Device</span>
     <nav class="product-search">
-      <input class="product-search__site-search site-search" type="text" id="site-search" name="site-search-field" placeholder="Поиск по сайту">
+      <form class="product-search__form" method="GET" action="https://echo.htmlacademy.ru">
+        <input class="product-search__site-search site-search" type="text" id="site-search" name="site-search-field" placeholder="Поиск по сайту">
+        <input class="product-search__submit" type="submit" value="Найти">
+      </form>
       <svg class="product-search__site-search-label width="16px" height="16px">
         <use xlink:href="#search"></use>
       </svg>
