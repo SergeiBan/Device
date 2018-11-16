@@ -3,7 +3,8 @@
   display: flex;
   width: 160px;
   justify-content: space-around;
-  padding: 0; }
+  padding: 0;
+  margin: 0; }
 
 .social__item {
   opacity: 0.3; }

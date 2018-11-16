@@ -10,12 +10,13 @@
   justify-content: space-around;
   margin: 18px 140px 0px;
   padding-top: 50px;
+  position: relative;
 }
 
 .page-header__logo {
   position: absolute;
-  top: 5px;
-  left: 200px;
+  top: -20px;
+  left: 40px;
 }
 
 .page-header--index {

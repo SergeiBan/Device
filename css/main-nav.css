@@ -25,6 +25,9 @@
   color: #000000;
   position: relative; }
 
+.main-nav__link--footer {
+  color: #ffffff; }
+
 .main-nav__link::before {
   background-repeat: no-repeat;
   top: 50%;

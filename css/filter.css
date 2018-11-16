@@ -1,10 +1,10 @@
 .filter {
-  background-color: #efefef;
+  background-image: linear-gradient(to bottom, #dbdbdb 70px, #efefef 70px);
   grid-row: 2 / 3;
   grid-column: 1 / 2;
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  align-items: flex-start; }
 
 .filter__title {
   font-size: 16px;
@@ -12,13 +12,16 @@
   font-family: "Gilroy";
   font-weight: 900;
   text-transform: uppercase;
-  letter-spacing: 2px; }
+  letter-spacing: 2px;
+  padding: 23px 0;
+  margin: 0 0 69px 0; }
 
 .filter__type {
   font-size: 18px;
   line-height: 24px;
   font-family: "Gilroy";
-  font-weight: 900; }
+  font-weight: 900;
+  margin: 16px 0 36px 0; }
 
 .filter__label {
   font-size: 14px;
@@ -37,8 +40,22 @@
   height: 23px;
   background: url("../img/checkbox-off.svg") 0 0 no-repeat; }
 
+.filter__color:hover + .filter__label::before {
+  opacity: 0.6; }
+
+.filter__color:active + .filter__label::before {
+  background: url("../img/checkbox-on.svg") 0 0 no-repeat;
+  opacity: 1; }
+
 .filter__color:checked + .filter__label::before {
   background: url("../img/checkbox-on.svg") 0 0 no-repeat; }
+
+.filter__color:checked:hover + .filter__label::before {
+  opacity: 0.6; }
+
+.filter__color:checked:active + .filter__label::before {
+  background: url("../img/checkbox-off.svg") 0 0 no-repeat;
+  opacity: 1; }
 
 .filter__bluetooth-label {
   font-size: 14px;
@@ -50,7 +67,9 @@
 
 .filter__color-block {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  border-top: 2px solid #000000;
+  margin-bottom: 41px; }
 
 .filter__color {
   display: none; }
@@ -58,7 +77,9 @@
 .filter__bluetooth-block {
   display: flex;
   flex-direction: column;
-  align-items: left; }
+  align-items: left;
+  border-top: 2px solid #000000;
+  margin-bottom: 55px; }
 
 .filter__bluetooth {
   display: none; }
@@ -72,5 +93,59 @@
   left: -0px;
   background: url("../img/radio-off.svg") 0 0 no-repeat; }
 
+.filter__bluetooth:hover + .filter__bluetooth-label::before {
+  opacity: 0.6; }
+
+.filter__bluetooth:active + .filter__bluetooth-label::before {
+  background: url("../img/radio-on.svg") 0 0 no-repeat;
+  opacity: 1; }
+
 .filter__bluetooth:checked + .filter__bluetooth-label::before {
   background: url("../img/radio-on.svg") 0 0 no-repeat; }
+
+.filter__bluetooth:checked:hover + .filter__bluetooth-label::before {
+  opacity: 0.6; }
+
+.filter__bluetooth:checked:active + .filter__bluetooth-label::before {
+  background: url("../img/radio-off.svg") 0 0 no-repeat;
+  opacity: 1; }
+
+.filter__price-block {
+  border-top: 2px solid #000000; }
+
+.filter__container {
+  width: 201px;
+  margin-left: 180px; }
+
+.filter__range {
+  width: 196px;
+  height: 2px;
+  background-color: #dbdbdb;
+  margin-bottom: 67px;
+  position: relative; }
+
+.filter__range-line {
+  width: 110px;
+  height: 2px;
+  background-color: #91c92f;
+  position: relative; }
+
+.filter__range-first {
+  background: url("../img/filter-button.svg") 0 0 no-repeat;
+  width: 20px;
+  height: 22px;
+  position: absolute;
+  left: -4px;
+  top: -11px; }
+
+.filter__range-second {
+  background: url("../img/filter-button.svg") 0 0 no-repeat;
+  width: 20px;
+  height: 22px;
+  position: absolute;
+  left: 55%;
+  top: -11px; }
+
+.filter__range-first:hover,
+.filter__range-second:hover {
+  transform: scale(1.1); }

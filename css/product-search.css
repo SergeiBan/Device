@@ -35,7 +35,8 @@
 
 .product-search__goods-list--catalog {
   top: 90%;
-  left: -40px; }
+  left: -40px;
+  padding-left: 40px; }
 
 .product-search__goods {
   position: relative;
@@ -43,7 +44,8 @@
   line-height: 24px;
   font-family: "Gilroy";
   font-weight: 900;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  margin: 50px 0; }
 
 .product-search__goods:hover {
   opacity: 0.6; }
@@ -72,7 +74,6 @@
   background-size: cover; }
 
 .product-search__site-search {
-  margin-bottom: 20px;
   padding-left: 35px; }
 
 .product-search__site-search:focus ~ .product-search__submit {
