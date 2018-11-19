@@ -104,3 +104,13 @@
 .contacts__form input:invalid {
   background-color: rgba(237, 181, 181, 0.5);
 }
+
+.contacts::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  height: 7px;
+  width: 80px;
+  background-color: #000000;
+}

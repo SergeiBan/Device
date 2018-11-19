@@ -8,10 +8,20 @@
   margin-bottom: 70px; }
 
 .about-us {
-  grid-column: 1 / 2; }
+  grid-column: 1 / 2;
+  position: relative; }
 
 .about-us__title {
   font-size: 47px;
   line-height: 48px;
   font-family: "Gilroy";
   font-weight: 900; }
+
+.about-us::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  height: 7px;
+  width: 80px;
+  background-color: #000000; }

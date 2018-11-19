@@ -22,9 +22,16 @@
   margin-right: 140px;
   margin-left: 80px;
   padding-left: 60px;
-  border-left: 7px solid #000000;
   flex-direction: column;
-  align-items: flex-start; }
+  align-items: flex-start;
+  position: relative; }
+
+.features__description-title {
+  font-size: 47px;
+  line-height: 48px;
+  font-family: "Gilroy";
+  font-weight: 900;
+  margin-top: 0; }
 
 .features__item-label--delivery {
   grid-row: 1 / 2;
@@ -61,3 +68,29 @@
   color: #f7e184;
   width: 360px;
   padding-right: 140px; }
+
+.features__description::after {
+  position: absolute;
+  content: "";
+  right: -132px;
+  bottom: -40px;
+  width: 171px;
+  height: 194px; }
+
+.features__description--delivery::after {
+  background: url("../img/delivery.svg") 0 0 no-repeat; }
+
+.features__description--warranty::after {
+  background: url("../img/warranty.svg") 0 0 no-repeat; }
+
+.features__description--credit::after {
+  background: url("../img/credit.svg") 0 0 no-repeat; }
+
+.features__description::before {
+  position: absolute;
+  content: "";
+  width: 7px;
+  height: 319px;
+  background: #000000;
+  left: 0;
+  top: -50%; }

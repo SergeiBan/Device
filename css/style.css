@@ -172,9 +172,16 @@ img {
   margin-right: 140px;
   margin-left: 80px;
   padding-left: 60px;
-  border-left: 7px solid #000000;
   flex-direction: column;
-  align-items: flex-start; }
+  align-items: flex-start;
+  position: relative; }
+
+.features__description-title {
+  font-size: 47px;
+  line-height: 48px;
+  font-family: "Gilroy";
+  font-weight: 900;
+  margin-top: 0; }
 
 .features__item-label--delivery {
   grid-row: 1 / 2;
@@ -211,6 +218,32 @@ img {
   color: #f7e184;
   width: 360px;
   padding-right: 140px; }
+
+.features__description::after {
+  position: absolute;
+  content: "";
+  right: -132px;
+  bottom: -40px;
+  width: 171px;
+  height: 194px; }
+
+.features__description--delivery::after {
+  background: url("../img/delivery.svg") 0 0 no-repeat; }
+
+.features__description--warranty::after {
+  background: url("../img/warranty.svg") 0 0 no-repeat; }
+
+.features__description--credit::after {
+  background: url("../img/credit.svg") 0 0 no-repeat; }
+
+.features__description::before {
+  position: absolute;
+  content: "";
+  width: 7px;
+  height: 319px;
+  background: #000000;
+  left: 0;
+  top: -50%; }
 
 .card__image {
   background-color: #f7e296;
@@ -743,13 +776,23 @@ img {
   margin-bottom: 70px; }
 
 .about-us {
-  grid-column: 1 / 2; }
+  grid-column: 1 / 2;
+  position: relative; }
 
 .about-us__title {
   font-size: 47px;
   line-height: 48px;
   font-family: "Gilroy";
   font-weight: 900; }
+
+.about-us::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  height: 7px;
+  width: 80px;
+  background-color: #000000; }
 
 .contacts__welcome {
   font-size: 15px;
@@ -857,6 +900,15 @@ img {
 .contacts__form input:invalid {
   background-color: rgba(237, 181, 181, 0.5); }
 
+.contacts::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  height: 7px;
+  width: 80px;
+  background-color: #000000; }
+
 .search__goods,
 .search__goods-list {
   font-size: 18px;
@@ -872,7 +924,7 @@ img {
   width: 100%; }
 
 .features-nav--header {
-  margin: 50px 0; }
+  margin: 40px 0 60px 0; }
 
 .features-nav--footer {
   width: 430px;
@@ -1084,7 +1136,7 @@ symbol {
   font-family: "Gilroy";
   font-weight: 900;
   text-transform: uppercase;
-  margin: 50px 0; }
+  margin: 40px 0 60px 0; }
 
 .product-search__goods:hover {
   opacity: 0.6; }
@@ -1156,7 +1208,7 @@ symbol {
 
 .page-body__wrapper--index {
   display: grid;
-  grid-template-rows: 120px 180px 2130px 320px;
+  grid-template-rows: 180px 120px 2130px 320px;
   width: 1440px;
   margin: 0 auto; }
 
@@ -1361,10 +1413,15 @@ symbol {
 
 .map__big {
   position: absolute;
-  top: -500px;
+  top: 0px;
   left: -550px;
   width: 960px;
   height: 559px; }
+
+.map__big-close {
+  position: absolute;
+  top: 22px;
+  right: 22px; }
 
 .modal-close {
   border: none;

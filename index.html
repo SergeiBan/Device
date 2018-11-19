@@ -260,7 +260,7 @@
       <!-- <label class="features__item-label features__item-label--delivery in-depth" for="delivery">Доставка</label> -->
       <input class="features__item-input features__item-input--delivery" type="radio" id="delivery" name="features__item-field" checked>
       <div class="features__description features__description--delivery">
-        <h2>Доставка</h2>
+        <h2 class="features__description-title">Доставка</h2>
         <p class="features__text">Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж.</p>
       </div>
       <label class="features__item-label features__item-label--delivery in-depth" for="delivery">Доставка</label>
@@ -268,7 +268,7 @@
       <input class="features__item-input features__item-input--warranty" type="radio" id="warranty" name="features__item-field">
       
       <div class="features__description features__description--warranty">
-        <h2>Гарантия</h2>
+        <h2 class="features__description-title">Гарантия</h2>
         <p class="features__text">Если из-за возгорания купленного у нас товара у вас сгорит дом — не переживайте, мы выдадим вам новый.
             Товар, не дом, конечно же.</p>
       </div>
@@ -277,7 +277,7 @@
       <input class="features__item-input features__item-input--credit" type="radio" id="credit" name="features__item-field">
       
       <div class="features__description features__description--credit">
-        <h2>Кредит</h2>
+        <h2 class="features__description-title">Кредит</h2>
         <p class="features__text">Залезть в долговую яму стало проще! Кредитные консультанты подберут для вас наиболее выгодные 
             условия кредита. Выгодные для нашего банка, разумеется.</p>
       </div>
@@ -322,12 +322,12 @@
           <img class="map__small" src="img/map.jpg" alt="Малая карта">
           <div class="map__big not-shown">
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1982.4673249618602!2d29.680005716107832!3d60.20609788197421!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469654e1c2add12b%3A0x9aec714d5269991a!2z0YPQuy4g0KHRgtGA0L7QuNGC0LXQu9C10LksIDE1LCDQl9C10LvQtdC90L7Qs9C-0YDRgdC6LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTk3NzIw!5e0!3m2!1sru!2sru!4v1541717989362" width="960" height="559" frameborder="0" style="border:0" allowfullscreen></iframe>
-            <button class="modal-close" type="button">X</button>
+            <button class="map__big-close modal-close" type="button"></button>
           </div>
         </div>
         <div class="contacts__letter">
           <a class="contacts__link in-depth" href="#">Напишите нам</a>
-          <form class="contacts__form" method="GET" action="https://echo.htmlacademy.ru">
+          <form class="contacts__form not-shown" method="GET" action="https://echo.htmlacademy.ru">
             <div class="contacts__name-block">
               <label class="contacts__label" for="name">Ваше имя:</label>
               <input class="contacts__name" type="text" id="name" name="name-field" placeholder="Имя Фамилия">

@@ -5,7 +5,12 @@
 
 .map__big {
   position: absolute;
-  top: -500px;
+  top: 0px;
   left: -550px;
   width: 960px;
   height: 559px; }
+
+.map__big-close {
+  position: absolute;
+  top: 22px;
+  right: 22px; }

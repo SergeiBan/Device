@@ -10,8 +10,19 @@
 
 .about-us {
   grid-column: 1 / 2;
+  position: relative;
 }
 
 .about-us__title {
   @include text4748;
+}
+
+.about-us::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  height: 7px;
+  width: 80px;
+  background-color: #000000;
 }
