@@ -1,4 +1,5 @@
 .navigation {
   display: flex;
   flex-direction: column;
-  width: 560px; }
+  width: 560px;
+  padding-left: 50px; }

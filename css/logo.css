@@ -3,7 +3,8 @@
   line-height: 48px;
   font-family: "Gilroy";
   font-weight: 900;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  letter-spacing: 0.48px; }
 
 .logo--footer {
   color: #ffc600; }

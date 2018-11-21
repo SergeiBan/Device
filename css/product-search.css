@@ -1,7 +1,8 @@
 .product-search {
   display: flex;
   flex-direction: column;
-  position: relative; }
+  position: relative;
+  margin-right: 50px; }
 
 .product-search__submit {
   display: block;
@@ -28,10 +29,11 @@
   background-color: #f7e296;
   padding: 0;
   position: absolute;
-  top: 85px;
-  left: 0;
-  min-height: 130px;
-  width: 1160px; }
+  bottom: 0px;
+  left: 0px;
+  min-height: 140px;
+  width: 1160px;
+  margin: 0; }
 
 .product-search__goods-list--catalog {
   top: 90%;
@@ -45,7 +47,8 @@
   font-family: "Gilroy";
   font-weight: 900;
   text-transform: uppercase;
-  margin: 40px 0 60px 0; }
+  margin: 36px 0 60px 0;
+  letter-spacing: 3.6px; }
 
 .product-search__goods:hover {
   opacity: 0.6; }
@@ -69,9 +72,10 @@
   width: 16px;
   height: 16px;
   top: 3px;
-  left: 200px;
+  left: 226px;
   background: url("../img/plus.svg");
-  background-size: cover; }
+  background-size: cover;
+  opacity: 0.3; }
 
 .product-search__site-search {
   padding-left: 35px; }

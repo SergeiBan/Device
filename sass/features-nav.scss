@@ -3,6 +3,8 @@
 .features-nav {
   @include text1824;
   width: 100%;
+  letter-spacing: 3.6px;
+  
 }
 
 .features-nav--header {
@@ -23,8 +25,13 @@
   text-transform: uppercase;
 }
 
-.features-nav__item--contacts {
-  margin-left: 112px;
+.features-nav__item {
+  margin-right: 35px;
+}
+
+.features-nav__item:last-of-type {
+  margin-left: auto;
+  margin-right: 0;
 }
 
 .features-nav__link {

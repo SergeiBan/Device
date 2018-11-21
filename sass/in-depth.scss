@@ -4,7 +4,7 @@
   @include text1824;
   color: #000000;
   text-decoration: none;
-  letter-spacing: 2px;
+  letter-spacing: 3.5px;
   text-transform: uppercase;
   display: flex;
   justify-content: center;
@@ -15,7 +15,7 @@
   vertical-align: bottom;
   border: none;
   background-color: transparent;
-  background-image: linear-gradient(to bottom, transparent 15px, #f0c52e 15px, #f0c52e 25px, transparent 25px, transparent 40px);
+  background-image: linear-gradient(to bottom, transparent 15px, #f0c52e 15px, #f0c52e 23px, transparent 23px, transparent 40px);
 }
 
 .in-depth:hover {

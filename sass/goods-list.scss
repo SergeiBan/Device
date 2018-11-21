@@ -2,9 +2,10 @@
 
 .goods-list {
   list-style: none;
-  grid-template-columns: 200px 200px 200px;
+  grid-template-columns: 240px 200px 200px;
   grid-template-rows: 15px 15px 15px;
   grid-row-gap: 20px;
+  width: 1100px;
 }
 
 .goods-list__link {

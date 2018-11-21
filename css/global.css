@@ -30,3 +30,6 @@ img {
 *::before,
 *::after {
   box-sizing: border-box; }
+
+body {
+  font-kerning: none; }

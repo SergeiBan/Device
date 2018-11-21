@@ -4,6 +4,7 @@
   display: flex;
   flex-direction: column;
   position: relative;
+  margin-right: 50px;
 }
 
 .product-search__submit {
@@ -30,10 +31,11 @@
   background-color: #f7e296;
   padding: 0;
   position: absolute;
-  top: 85px;
-  left: 0;
-  min-height: 130px;
+  bottom: 0px;
+  left: 0px;
+  min-height: 140px;
   width: 1160px;
+  margin: 0;
 }
 
 .product-search__goods-list--catalog {
@@ -46,7 +48,8 @@
   position: relative;
   @include text1824;
   text-transform: uppercase;
-  margin: 40px 0 60px 0;
+  margin: 36px 0 60px 0;
+  letter-spacing: 3.6px;
 }
 
 .product-search__goods:hover {
@@ -75,9 +78,10 @@
   width: 16px;
   height: 16px;
   top: 3px;
-  left: 200px;
+  left: 226px;
   background: url('../img/plus.svg');
   background-size: cover;
+  opacity: 0.3;
 }
 
 // .product-search__goods-input:checked ~ .product-search__goods-list {

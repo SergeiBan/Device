@@ -5,7 +5,16 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 40px; }
+  margin-bottom: 32px; }
+
+.card:nth-of-type(2) .card__image {
+  align-items: flex-end; }
+
+.card:nth-of-type(3) svg,
+.card:nth-of-type(5) svg {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-45%); }
 
 .card__image:hover {
   background-color: #f0c52e; }
@@ -14,7 +23,8 @@
   opacity: 0.3; }
 
 .card {
-  width: 160px; }
+  width: 160px;
+  position: relative; }
 
 .card__link {
   text-decoration: none;

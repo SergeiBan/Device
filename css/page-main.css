@@ -17,7 +17,9 @@
   grid-template-columns: 465px 975px; }
 
 .page-main__categories {
-  grid-row: 2 / 3; }
+  grid-row: 2 / 3;
+  margin-top: 20px;
+  margin-left: 140px; }
 
 .page-main__features {
   grid-row: 3 / 4; }
