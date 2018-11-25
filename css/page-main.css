@@ -22,7 +22,8 @@
   margin-left: 140px; }
 
 .page-main__features {
-  grid-row: 3 / 4; }
+  grid-row: 3 / 4;
+  margin-top: 10px; }
 
 .page-main__manufacturers {
   grid-row: 4 / 5;
