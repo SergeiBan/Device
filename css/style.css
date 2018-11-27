@@ -153,16 +153,16 @@ body {
 .slider__info::before {
   content: "";
   position: absolute;
-  left: 0px;
-  top: 40px;
+  left: 20px;
+  top: 64px;
   width: 100px;
   height: 7px;
   background: #ffffff; }
 
 .slider__item::before {
   position: absolute;
-  top: 0;
-  right: 60px;
+  top: -8px;
+  right: 85px;
   font-size: 179px;
   font-family: "Gilroy";
   font-weight: 900;
@@ -198,7 +198,8 @@ body {
   grid-template-rows: 40px 40px 40px;
   grid-row-gap: 25px;
   padding-top: 80px;
-  padding-left: 140px; }
+  padding-left: 140px;
+  min-height: 390px; }
 
 .features__text {
   font-size: 15px;
@@ -828,34 +829,6 @@ body {
   bottom: 79px;
   left: 140px; }
 
-.about-us__text {
-  font-size: 15px;
-  line-height: 30px;
-  font-family: "Open Sans";
-  font-weight: 300; }
-
-.about-us__text:last-of-type {
-  margin-bottom: 70px; }
-
-.about-us {
-  grid-column: 1 / 2;
-  position: relative; }
-
-.about-us__title {
-  font-size: 47px;
-  line-height: 48px;
-  font-family: "Gilroy";
-  font-weight: 900; }
-
-.about-us::before {
-  position: absolute;
-  content: "";
-  top: 0;
-  left: 0;
-  height: 7px;
-  width: 80px;
-  background-color: #000000; }
-
 .contacts__welcome {
   font-size: 15px;
   line-height: 30px;
@@ -965,11 +938,14 @@ body {
 .contacts::before {
   position: absolute;
   content: "";
-  top: 0;
+  top: -15px;
   left: 0;
   height: 7px;
   width: 80px;
   background-color: #000000; }
+
+.contacts__link-details {
+  width: 260px; }
 
 .search__goods,
 .search__goods-list {
@@ -1028,8 +1004,8 @@ body {
   font-family: "Gilroy";
   font-weight: 900;
   list-style: none;
-  padding-left: 25px;
-  margin-bottom: 76px; }
+  padding-left: 35px;
+  margin-bottom: 55px; }
 
 .delivery-list__item {
   position: relative; }
@@ -1042,7 +1018,7 @@ body {
   border: 2px solid #e5e5e5;
   top: 50%;
   transform: translateY(-50%);
-  left: -25px;
+  left: -35px;
   border-radius: 50px; }
 
 .logo {
@@ -1256,6 +1232,9 @@ symbol {
   width: 1440px;
   margin: 0 auto; }
 
+.page-body {
+  margin: 0; }
+
 .page-main--index {
   grid-row: 2 / 3;
   grid-column: 1 / 2;
@@ -1366,8 +1345,46 @@ symbol {
 
 .about {
   display: grid;
-  grid-template-columns: 560px 560px;
-  grid-column-gap: 80px; }
+  grid-template-columns: 520px 520px;
+  grid-column-gap: 80px;
+  padding-top: 20px; }
+
+.about-us__text {
+  font-size: 15px;
+  line-height: 30px;
+  font-family: "Open Sans";
+  font-weight: 300; }
+
+.about-us__text:first-of-type {
+  margin-bottom: 30px; }
+
+.about-us__text:last-of-type {
+  margin-bottom: 70px; }
+
+.about-us {
+  grid-column: 1 / 2;
+  position: relative; }
+
+.about-us__title {
+  font-size: 47px;
+  line-height: 48px;
+  font-family: "Gilroy";
+  font-weight: 900; }
+
+.about-us::before {
+  position: absolute;
+  content: "";
+  top: -15px;
+  left: 0;
+  height: 7px;
+  width: 80px;
+  background-color: #000000; }
+
+.about-us__details {
+  width: 260px; }
+
+.manufacturers {
+  padding-top: 85px; }
 
 .manufacturers__pic {
   width: 260px;
@@ -1377,7 +1394,7 @@ symbol {
   list-style: none;
   display: flex;
   justify-content: space-between;
-  padding: 0; }
+  padding: 0 40px 0 0; }
 
 .manufacturers__img {
   filter: grayscale(100%);
@@ -1392,11 +1409,11 @@ symbol {
 
 .toggles__toggle-label {
   z-index: 2;
-  top: 395px; }
+  top: 355px; }
 
 .toggles__toggle-label:nth-of-type(1) {
   position: absolute;
-  right: 125px;
+  right: 188px;
   width: 12px;
   height: 12px;
   border: 1px solid #000000;
@@ -1404,7 +1421,7 @@ symbol {
 
 .toggles__toggle-label:nth-of-type(2) {
   position: absolute;
-  right: 105px;
+  right: 153px;
   width: 12px;
   height: 12px;
   border: 1px solid #000000;
@@ -1412,7 +1429,7 @@ symbol {
 
 .toggles__toggle-label:nth-of-type(3) {
   position: absolute;
-  right: 85px;
+  right: 120px;
   width: 12px;
   height: 12px;
   border: 1px solid #000000;
@@ -1458,7 +1475,7 @@ symbol {
 .map {
   width: 560px;
   height: 222px;
-  margin-bottom: 76px; }
+  margin-bottom: 70px; }
 
 .map__big {
   position: absolute;

@@ -8,3 +8,6 @@
   grid-template-rows: 180px 120px 2130px 320px;
   width: 1440px;
   margin: 0 auto; }
+
+.page-body {
+  margin: 0; }

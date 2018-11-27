@@ -66,16 +66,16 @@
 .slider__info::before {
   content: "";
   position: absolute;
-  left: 0px;
-  top: 40px;
+  left: 20px;
+  top: 64px;
   width: 100px;
   height: 7px;
   background: #ffffff; }
 
 .slider__item::before {
   position: absolute;
-  top: 0;
-  right: 60px;
+  top: -8px;
+  right: 85px;
   font-size: 179px;
   font-family: "Gilroy";
   font-weight: 900;

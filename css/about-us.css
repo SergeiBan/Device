@@ -4,6 +4,9 @@
   font-family: "Open Sans";
   font-weight: 300; }
 
+.about-us__text:first-of-type {
+  margin-bottom: 30px; }
+
 .about-us__text:last-of-type {
   margin-bottom: 70px; }
 
@@ -20,8 +23,11 @@
 .about-us::before {
   position: absolute;
   content: "";
-  top: 0;
+  top: -15px;
   left: 0;
   height: 7px;
   width: 80px;
   background-color: #000000; }
+
+.about-us__details {
+  width: 260px; }

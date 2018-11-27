@@ -1,3 +1,6 @@
+.manufacturers {
+  padding-top: 85px; }
+
 .manufacturers__pic {
   width: 260px;
   height: 100px; }
@@ -6,7 +9,7 @@
   list-style: none;
   display: flex;
   justify-content: space-between;
-  padding: 0; }
+  padding: 0 40px 0 0; }
 
 .manufacturers__img {
   filter: grayscale(100%);

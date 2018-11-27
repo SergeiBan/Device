@@ -3,8 +3,8 @@
 .delivery-list {
   @include text1640;
   list-style: none;
-  padding-left: 25px;
-  margin-bottom: 76px;
+  padding-left: 35px;
+  margin-bottom: 55px;
 }
 
 .delivery-list__item {
@@ -19,6 +19,6 @@
   border: 2px solid #e5e5e5;
   top: 50%;
   transform: translateY(-50%);
-  left: -25px;
+  left: -35px;
   border-radius: 50px;
 }

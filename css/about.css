@@ -1,4 +1,5 @@
 .about {
   display: grid;
-  grid-template-columns: 560px 560px;
-  grid-column-gap: 80px; }
+  grid-template-columns: 520px 520px;
+  grid-column-gap: 80px;
+  padding-top: 20px; }

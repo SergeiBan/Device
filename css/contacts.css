@@ -107,8 +107,11 @@
 .contacts::before {
   position: absolute;
   content: "";
-  top: 0;
+  top: -15px;
   left: 0;
   height: 7px;
   width: 80px;
   background-color: #000000; }
+
+.contacts__link-details {
+  width: 260px; }
