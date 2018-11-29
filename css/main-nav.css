@@ -8,6 +8,9 @@
   display: flex;
   flex-direction: column; }
 
+.main-nav--footer {
+  width: auto; }
+
 .main-nav__items {
   list-style: none;
   display: flex;
@@ -16,6 +19,9 @@
   margin: 0;
   padding: 0;
   letter-spacing: 0.15px; }
+
+.main-nav__items--footer {
+  justify-content: flex-end; }
 
 .main-nav__item {
   padding-left: 25px;
@@ -28,6 +34,9 @@
 
 .main-nav__item:last-of-type {
   margin-right: 0; }
+
+.main-nav__item--footer:not(:last-of-type) {
+  margin-right: 40px; }
 
 .main-nav__link {
   text-decoration: none;

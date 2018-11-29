@@ -12,8 +12,9 @@
 }
 
 .features-nav--footer {
-  width: 430px;
+  width: 460px;
   align-self: center;
+  padding-right: 30px;
 }
 
 .features-nav__list {
@@ -27,6 +28,10 @@
 
 .features-nav__item {
   margin-right: 35px;
+}
+
+.features-nav__item--footer {
+  margin-right: 30px;
 }
 
 .features-nav__item:last-of-type {
