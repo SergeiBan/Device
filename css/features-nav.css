@@ -9,6 +9,9 @@
 .features-nav--header {
   margin: 40px 0 60px 0; }
 
+.features-nav--header--catalog {
+  margin-bottom: 40px; }
+
 .features-nav--footer {
   width: 460px;
   align-self: center;

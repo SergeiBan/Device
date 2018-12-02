@@ -7,6 +7,10 @@
   margin-right: 50px;
 }
 
+.product-search--catalog {
+  min-height: 140px;
+}
+
 .product-search__submit {
   display: block;
   width: 85px;
@@ -40,7 +44,7 @@
 
 .product-search__goods-list--catalog {
   top: 90%;
-  left: -40px;
+  left: -60px;
   padding-left: 40px;
 }
 
@@ -50,6 +54,10 @@
   text-transform: uppercase;
   margin: 36px 0 60px 0;
   letter-spacing: 3.6px;
+}
+
+.product-search__goods--catalog {
+  margin-bottom: 40px;
 }
 
 .product-search__goods:hover {
