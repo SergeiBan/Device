@@ -103,8 +103,8 @@
       </svg>
       <!-- <label class="product-search__site-search-label" for="site-search"></label> -->
       <input class="product-search__menu" id="goods-input" name="goods-input-field" type="checkbox">
-      <label class="product-search__goods product-search__goods--catalog goods" for="goods-input">Каталог товаров</label>
-      <ul class="product-search__goods-list product-search__goods-list--catalog goods-list">
+      <label class="product-search__goods product-search__goods--catalog goods goods--catalog" for="goods-input">Каталог товаров</label>
+      <ul class="product-search__goods-list product-search__goods-list--catalog goods-list goods-list--catalog">
         <li class="goods-list__good goods-list__good--catalog"><a class="goods-list__link" href="#">Виртуальная реальность</a></li>
         <li class="goods-list__good goods-list__good--catalog"><a class="goods-list__link" href="#">Моноподы для селфи</a></li>
         <li class="goods-list__good goods-list__good--catalog"><a class="goods-list__link" href="#">Экшн-камеры</a></li>
@@ -154,7 +154,7 @@
       </div>
     </section>
     <section class="filter__color-block">
-      <h3 class="filter__type">Цвет</h3>
+      <h3 class="filter__type filter__type--color">Цвет</h3>
       <input class="filter__color" type="checkbox" id="black" name="black-field" checked>
       <label class="filter__label" for="black">Черный</label>
       <input class="filter__color" type="checkbox" id="white" name="white-field">
@@ -167,7 +167,7 @@
       <label class="filter__label" for="pink">Розовый</label>
     </section>
     <section class="filter__bluetooth-block">
-      <h3 class="filter__type">Bluetooth</h3>
+      <h3 class="filter__type filter__type--bluetooth">Bluetooth</h3>
       <input class="filter__bluetooth" type="radio" id="bluetooth-yes" name="bluetooth-field" checked>
       <label class="filter__bluetooth-label" for="bluetooth-yes">Есть</label>
       <input class="filter__bluetooth" type="radio" id="bluetooth-no" name="bluetooth-field">
@@ -256,7 +256,7 @@
 </main>
 <footer class="page-footer page-footer--catalog">
   <span class="page-footer__logo logo logo--footer">Device</span>
-  <nav class="page-footer__main-nav main-nav">
+  <nav class="page-footer__main-nav page-footer__main-nav--catalog main-nav">
     <ul class="main-nav__items">
       <li class="main-nav__item not-shown"><a class="main-nav__link main-nav__link--footer main-nav__link--person-footer" href="#">Валентин Петухов</a></li>
       <li class="main-nav__item"><a class="main-nav__link main-nav__link--footer main-nav__link--enter-footer" href="#">Войти</a></li>

@@ -5,7 +5,7 @@
   justify-content: space-between;
   align-items: center;
   text-transform: uppercase;
-  margin: 0 20px 77px 20px; }
+  margin: 0 20px 66px 20px; }
 
 .pagination__direction {
   font-size: 16px;
@@ -14,7 +14,8 @@
   font-weight: 900;
   letter-spacing: 4px;
   display: block;
-  padding: 30px; }
+  padding: 30px;
+  padding-right: 25px; }
 
 .pagination__direction:hover {
   background-color: #d8d8d8; }
@@ -42,7 +43,8 @@
 .pagination__list {
   list-style: none;
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  padding-left: 10px; }
 
 .pagination__number {
   margin: 0 15px; }

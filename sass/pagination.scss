@@ -7,7 +7,7 @@
   justify-content: space-between;
   align-items: center;
   text-transform: uppercase;
-  margin: 0 20px 77px 20px;
+  margin: 0 20px 66px 20px;
 }
 
 .pagination__direction {
@@ -15,6 +15,7 @@
   letter-spacing: 4px;
   display: block;
   padding: 30px;
+  padding-right: 25px;
 }
 
 .pagination__direction:hover {
@@ -47,6 +48,7 @@
   list-style: none;
   display: flex;
   justify-content: space-between;
+  padding-left: 10px;
 }
 
 .pagination__number {

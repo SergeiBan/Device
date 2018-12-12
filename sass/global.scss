@@ -51,6 +51,8 @@ img {
 *::before,
 *::after {
   box-sizing: border-box;
+  transition-property: all;
+  transition-duration: 0.3s;
 }
 
 body {

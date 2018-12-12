@@ -16,7 +16,8 @@
   vertical-align: bottom;
   border: none;
   background-color: transparent;
-  background-image: linear-gradient(to bottom, transparent 15px, #f0c52e 15px, #f0c52e 23px, transparent 23px, transparent 40px); }
+  background-image: linear-gradient(to bottom, transparent 15px, #f0c52e 15px, #f0c52e 23px, transparent 23px, transparent 40px);
+  transition-duration: 0.5s; }
 
 .in-depth:hover {
   background: #f0c52e;

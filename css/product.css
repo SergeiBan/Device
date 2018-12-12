@@ -1,7 +1,7 @@
 .product__pic {
   width: 360px;
   height: 380px;
-  margin: 0 auto 35px; }
+  margin: 0 auto 33px; }
 
 .product__name {
   font-size: 18px;
@@ -25,7 +25,7 @@
 .products {
   display: grid;
   grid-template-columns: 400px 400px;
-  margin-left: 50px; }
+  margin-left: 55px; }
 
 .product:nth-child(even) {
   grid-column: 2 / 3; }
@@ -63,8 +63,11 @@
   justify-content: space-between; }
 
 .product {
-  margin-bottom: 50px;
+  margin-bottom: 45px;
   position: relative; }
+
+.product:nth-last-of-type(-n+3) {
+  margin-bottom: 30px; }
 
 .product__pic:hover > .product__image {
   opacity: 0.7; }
