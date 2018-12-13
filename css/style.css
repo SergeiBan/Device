@@ -36,6 +36,12 @@ img {
 body {
   font-kerning: none; }
 
+input[type="submit"] {
+  cursor: text; }
+
+a {
+  cursor: pointer; }
+
 .in-depth {
   font-size: 18px;
   line-height: 24px;
@@ -55,7 +61,8 @@ body {
   border: none;
   background-color: transparent;
   background-image: linear-gradient(to bottom, transparent 15px, #f0c52e 15px, #f0c52e 23px, transparent 23px, transparent 40px);
-  transition-duration: 0.5s; }
+  transition-duration: 0.5s;
+  cursor: pointer; }
 
 .in-depth:hover {
   background: #f0c52e;
@@ -256,20 +263,20 @@ body {
 .features__item-input--delivery:active ~ .features__item-label--delivery {
   background: #000000;
   color: #f7e184;
-  width: 360px;
-  padding-right: 140px; }
+  width: 280px;
+  padding-right: 120px; }
 
 .features__item-input--warranty:active ~ .features__item-label--warranty {
   background: #000000;
   color: #f7e184;
-  width: 360px;
-  padding-right: 140px; }
+  width: 280px;
+  padding-right: 120px; }
 
 .features__item-input--credit:active ~ .features__item-label--credit {
   background: #000000;
   color: #f7e184;
-  width: 360px;
-  padding-right: 140px; }
+  width: 280px;
+  padding-right: 120px; }
 
 .features__description::after {
   position: absolute;

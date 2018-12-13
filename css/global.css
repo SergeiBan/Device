@@ -35,3 +35,9 @@ img {
 
 body {
   font-kerning: none; }
+
+input[type="submit"] {
+  cursor: text; }
+
+a {
+  cursor: pointer; }
